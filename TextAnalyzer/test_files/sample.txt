@@ -1,0 +1,4 @@
+Hello! This is a sample text file for testing our text analyzer.
+It contains multiple sentences. Some words repeat repeat repeat.
+We can count words, characters, and find interesting patterns.
+This is the fourth sentence. And this is the fifth!
