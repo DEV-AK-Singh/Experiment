@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔍 Web Content Scraper</title> 
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Web Content Scraper</h1>
+            <p>Extract structured content (text, links, images) from any website</p>
+        </header>
+
+        <div class="input-section">
+            <div class="input-group">
+                <input type="text" id="userInput" placeholder="Enter website URL or search keywords..." autocomplete="off">
+                <button id="scrapeBtn">Scrape Content</button>
+            </div>
+            <div class="examples">
+                <p><strong>Examples:</strong></p>
+                <code>https://example.com</code>
+                <code>wikipedia.org/wiki/Artificial_intelligence</code>
+                <code>python programming tutorials</code>
+            </div>
+            <div class="api-info">
+                <strong>API Endpoint:</strong> GET /api/scrape?url=URL or /api/scrape?keywords=QUERY
+            </div>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>Scraping website content...</p>
+        </div>
+
+        <div id="results" class="results">
+            <h3>📊 Scraping Results (JSON Format)</h3>
+            <pre id="jsonOutput" class="json-viewer"></pre>
+            <button onclick="copyToClipboard()" style="margin-top: 10px; padding: 10px 20px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                Copy JSON to Clipboard
+            </button>
+            <button onclick="downloadJSON()" style="margin-top: 10px; padding: 10px 20px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; margin-left: 10px;">
+                Download JSON
+            </button>
+        </div>
+
+        <div id="error" class="error">
+            <!-- Errors will be displayed here -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const userInput = document.getElementById('userInput');
+            const scrapeBtn = document.getElementById('scrapeBtn');
+            const loading = document.getElementById('loading');
+            const results = document.getElementById('results');
+            const jsonOutput = document.getElementById('jsonOutput');
+            const error = document.getElementById('error');
+
+            function showLoading() {
+                loading.style.display = 'block';
+                results.style.display = 'none';
+                error.style.display = 'none';
+            }
+
+            function showResults() {
+                loading.style.display = 'none';
+                results.style.display = 'block';
+                error.style.display = 'none';
+            }
+
+            function showError(message) {
+                loading.style.display = 'none';
+                results.style.display = 'none';
+                error.style.display = 'block';
+                error.innerHTML = `<p>${message}</p>`;
+            }
+
+            async function performScraping() {
+                const input = userInput.value.trim();
+                
+                if (!input) {
+                    showError('Please enter a URL or search keywords');
+                    return;
+                }
+
+                showLoading();
+
+                try {
+                    const response = await fetch('/scrape', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ input: input })
+                    });
+
+                    const data = await response.json();
+
+                    if (data.success) {
+                        // Format and display JSON
+                        jsonOutput.textContent = JSON.stringify(data, null, 2);
+                        showResults();
+                    } else {
+                        showError(data.error || 'An error occurred while scraping');
+                    }
+                } catch (err) {
+                    showError('Network error: Could not connect to server');
+                }
+            }
+
+            function copyToClipboard() {
+                const text = jsonOutput.textContent;
+                navigator.clipboard.writeText(text).then(() => {
+                    alert('JSON copied to clipboard!');
+                });
+            }
+
+            function downloadJSON() {
+                const data = jsonOutput.textContent;
+                const blob = new Blob([data], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'scraped_data.json';
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }
+
+            // Event listeners
+            scrapeBtn.addEventListener('click', performScraping);
+            
+            userInput.addEventListener('keypress', function(e) {
+                if (e.key === 'Enter') {
+                    performScraping();
+                }
+            });
+
+            userInput.focus();
+        });
+    </script>
+</body>
+</html>

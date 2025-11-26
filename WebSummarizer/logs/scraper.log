@@ -1,0 +1,1030 @@
+2025-11-26 15:13:51 - __main__ - INFO - app.py:203 - <module> - Starting Web Scraper Application
+2025-11-26 15:13:52 - werkzeug - WARNING - _internal.py:97 - _log -  * Debugger is active!
+2025-11-26 15:13:52 - werkzeug - INFO - _internal.py:97 - _log -  * Debugger PIN: 740-015-164
+2025-11-26 15:14:55 - werkzeug - INFO - _internal.py:97 - _log -  * Detected change in 'C:\\Users\\Abhishek\\Desktop\\Experiments\\WebSummarizer\\app.py', reloading
+2025-11-26 15:18:35 - scraper - INFO - scraper.py:22 - __init__ - WebScraper initialized
+2025-11-26 15:18:35 - __main__ - INFO - app.py:203 - <module> - Starting Web Scraper Application
+2025-11-26 15:18:35 - werkzeug - INFO - _internal.py:97 - _log - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.12:5000
+2025-11-26 15:18:35 - werkzeug - INFO - _internal.py:97 - _log - [33mPress CTRL+C to quit[0m
+2025-11-26 15:18:35 - werkzeug - INFO - _internal.py:97 - _log -  * Restarting with stat
+2025-11-26 15:18:35 - scraper - INFO - scraper.py:22 - __init__ - WebScraper initialized
+2025-11-26 15:18:35 - __main__ - INFO - app.py:203 - <module> - Starting Web Scraper Application
+2025-11-26 15:18:35 - werkzeug - WARNING - _internal.py:97 - _log -  * Debugger is active!
+2025-11-26 15:18:35 - werkzeug - INFO - _internal.py:97 - _log -  * Debugger PIN: 740-015-164
+2025-11-26 15:18:53 - __main__ - INFO - app.py:36 - log_request_info - Request: GET / - IP: 127.0.0.1
+2025-11-26 15:18:53 - __main__ - INFO - app.py:52 - index - Serving index page
+2025-11-26 15:18:53 - __main__ - INFO - app.py:47 - log_response_info - Response: 200 - Size: 5561 bytes
+2025-11-26 15:18:53 - werkzeug - INFO - _internal.py:97 - _log - 127.0.0.1 - - [26/Nov/2025 15:18:53] "GET / HTTP/1.1" 200 -
+2025-11-26 15:18:53 - __main__ - INFO - app.py:36 - log_request_info - Request: GET /static/style.css - IP: 127.0.0.1
+2025-11-26 15:18:53 - __main__ - INFO - app.py:47 - log_response_info - Response: 304 - Size: 2645 bytes
+2025-11-26 15:18:53 - werkzeug - INFO - _internal.py:97 - _log - 127.0.0.1 - - [26/Nov/2025 15:18:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-11-26 15:18:58 - __main__ - INFO - app.py:36 - log_request_info - Request: POST /scrape - IP: 127.0.0.1
+2025-11-26 15:18:58 - __main__ - DEBUG - app.py:40 - log_request_info - Request JSON data: {
+  "input": "broken alley"
+}
+2025-11-26 15:18:58 - __main__ - INFO - app.py:60 - scrape_content - [req_1764150538_324791472747865751] Starting scrape request
+2025-11-26 15:18:58 - __main__ - INFO - app.py:82 - scrape_content - [req_1764150538_324791472747865751] Processing input: broken alley
+2025-11-26 15:18:58 - scraper - INFO - scraper.py:471 - process_input - [req_1764150538_324791472747865751] Processing input: 'broken alley'
+2025-11-26 15:18:58 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: broken alley -> False
+2025-11-26 15:18:58 - scraper - DEBUG - scraper.py:480 - process_input - [req_1764150538_324791472747865751] Input detected as KEYWORDS
+2025-11-26 15:18:58 - scraper - INFO - scraper.py:533 - process_keywords - [req_1764150538_324791472747865751] Processing keywords: 'broken alley'
+2025-11-26 15:18:58 - scraper - INFO - scraper.py:51 - search_keywords - [req_1764150538_324791472747865751] Searching for keywords: broken alley
+2025-11-26 15:18:58 - scraper - DEBUG - scraper.py:54 - search_keywords - [req_1764150538_324791472747865751] Search URL: https://html.duckduckgo.com/html/?q=broken%20alley
+2025-11-26 15:18:59 - scraper - DEBUG - scraper.py:58 - search_keywords - [req_1764150538_324791472747865751] Search response status: 202
+2025-11-26 15:18:59 - scraper - DEBUG - scraper.py:64 - search_keywords - [req_1764150538_324791472747865751] Found 0 search results
+2025-11-26 15:18:59 - scraper - INFO - scraper.py:91 - search_keywords - [req_1764150538_324791472747865751] Search completed. Found 0 valid results
+2025-11-26 15:18:59 - scraper - WARNING - scraper.py:540 - process_keywords - [req_1764150538_324791472747865751] No relevant websites found for: broken alley
+2025-11-26 15:18:59 - scraper - INFO - scraper.py:486 - process_input - [req_1764150538_324791472747865751] Input processing completed. Success: False
+2025-11-26 15:18:59 - __main__ - INFO - app.py:91 - scrape_content - [req_1764150538_324791472747865751] Scraping completed in 0.52s - Success: False
+2025-11-26 15:18:59 - __main__ - ERROR - app.py:94 - scrape_content - [req_1764150538_324791472747865751] Scraping failed: No relevant websites found for: broken alley
+2025-11-26 15:18:59 - __main__ - INFO - app.py:47 - log_response_info - Response: 200 - Size: 261 bytes
+2025-11-26 15:18:59 - werkzeug - INFO - _internal.py:97 - _log - 127.0.0.1 - - [26/Nov/2025 15:18:59] "POST /scrape HTTP/1.1" 200 -
+2025-11-26 15:19:16 - scraper - INFO - scraper.py:22 - __init__ - WebScraper initialized
+2025-11-26 15:19:16 - __main__ - INFO - app.py:203 - <module> - Starting Web Scraper Application
+2025-11-26 15:19:16 - werkzeug - INFO - _internal.py:97 - _log - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.12:5000
+2025-11-26 15:19:16 - werkzeug - INFO - _internal.py:97 - _log - [33mPress CTRL+C to quit[0m
+2025-11-26 15:19:16 - werkzeug - INFO - _internal.py:97 - _log -  * Restarting with stat
+2025-11-26 15:19:16 - scraper - INFO - scraper.py:22 - __init__ - WebScraper initialized
+2025-11-26 15:19:16 - __main__ - INFO - app.py:203 - <module> - Starting Web Scraper Application
+2025-11-26 15:19:16 - werkzeug - WARNING - _internal.py:97 - _log -  * Debugger is active!
+2025-11-26 15:19:16 - werkzeug - INFO - _internal.py:97 - _log -  * Debugger PIN: 740-015-164
+2025-11-26 15:19:30 - __main__ - INFO - app.py:36 - log_request_info - Request: POST /scrape - IP: 127.0.0.1
+2025-11-26 15:19:30 - __main__ - DEBUG - app.py:40 - log_request_info - Request JSON data: {
+  "input": "https://brokenalley.in"
+}
+2025-11-26 15:19:30 - __main__ - INFO - app.py:60 - scrape_content - [req_1764150570_2316503199872370036] Starting scrape request
+2025-11-26 15:19:30 - __main__ - INFO - app.py:82 - scrape_content - [req_1764150570_2316503199872370036] Processing input: https://brokenalley.in
+2025-11-26 15:19:30 - scraper - INFO - scraper.py:471 - process_input - [req_1764150570_2316503199872370036] Processing input: 'https://brokenalley.in'
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://brokenalley.in -> True
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:476 - process_input - [req_1764150570_2316503199872370036] Input detected as URL: https://brokenalley.in
+2025-11-26 15:19:30 - scraper - INFO - scraper.py:491 - process_url - [req_1764150570_2316503199872370036] Processing URL: https://brokenalley.in
+2025-11-26 15:19:30 - scraper - INFO - scraper.py:100 - scrape_page - [req_1764150570_2316503199872370036] Starting to scrape page: https://brokenalley.in
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:104 - scrape_page - [req_1764150570_2316503199872370036] Making HTTP request to: https://brokenalley.in
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:107 - scrape_page - [req_1764150570_2316503199872370036] HTTP response: 200, Size: 2637 bytes
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:110 - scrape_page - [req_1764150570_2316503199872370036] HTML parsed successfully
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:180 - _extract_title - Extracted title: ...
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:191 - _extract_meta - Extracted 0 meta tags
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:208 - _extract_headings - Extracted 0 headings
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:251 - _extract_text_content - Extracted text content: 0 paragraphs, 0 bold texts, 0 italic texts
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:282 - _extract_links - Extracted 0 links (0 external)
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:306 - _extract_images - Extracted 1 images
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:339 - _extract_tables - Extracted 0 tables
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:378 - _extract_lists - Extracted 0 lists
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:411 - _extract_forms - Extracted 0 forms
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:423 - _extract_metadata - Extracted metadata: {'content_type': 'text/html; charset=utf-8', 'encoding': 'utf-8', 'language': 'en', 'response_size': 2637, 'status_code': 200}
+2025-11-26 15:19:30 - scraper - INFO - scraper.py:142 - scrape_page - [req_1764150570_2316503199872370036] Page scraped successfully: https://brokenalley.in
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:143 - scrape_page - [req_1764150570_2316503199872370036] Scraping stats: {'processing_time': 0.44, 'headings_count': 0, 'links_count': 0, 'images_count': 1, 'paragraphs_count': 0}
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:584 - _is_homepage - Homepage check: https://brokenalley.in -> True
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:507 - process_url - [req_1764150570_2316503199872370036] URL is homepage, starting additional crawl
+2025-11-26 15:19:30 - scraper - INFO - scraper.py:428 - crawl_website - [req_1764150570_2316503199872370036] Starting website crawl: https://brokenalley.in, max_pages: 2, max_depth: 1
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:46 - extract_domain - Extracted domain: https://brokenalley.in -> brokenalley.in
+2025-11-26 15:19:30 - scraper - INFO - scraper.py:443 - crawl_website - [req_1764150570_2316503199872370036] Crawling page 1/2: https://brokenalley.in (depth: 0)
+2025-11-26 15:19:30 - scraper - INFO - scraper.py:100 - scrape_page - [req_1764150570_2316503199872370036] Starting to scrape page: https://brokenalley.in
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:104 - scrape_page - [req_1764150570_2316503199872370036] Making HTTP request to: https://brokenalley.in
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:107 - scrape_page - [req_1764150570_2316503199872370036] HTTP response: 200, Size: 2637 bytes
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:110 - scrape_page - [req_1764150570_2316503199872370036] HTML parsed successfully
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:180 - _extract_title - Extracted title: ...
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:191 - _extract_meta - Extracted 0 meta tags
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:208 - _extract_headings - Extracted 0 headings
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:251 - _extract_text_content - Extracted text content: 0 paragraphs, 0 bold texts, 0 italic texts
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:282 - _extract_links - Extracted 0 links (0 external)
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:306 - _extract_images - Extracted 1 images
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:339 - _extract_tables - Extracted 0 tables
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:378 - _extract_lists - Extracted 0 lists
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:411 - _extract_forms - Extracted 0 forms
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:423 - _extract_metadata - Extracted metadata: {'content_type': 'text/html; charset=utf-8', 'encoding': 'utf-8', 'language': 'en', 'response_size': 2637, 'status_code': 200}
+2025-11-26 15:19:30 - scraper - INFO - scraper.py:142 - scrape_page - [req_1764150570_2316503199872370036] Page scraped successfully: https://brokenalley.in
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:143 - scrape_page - [req_1764150570_2316503199872370036] Scraping stats: {'processing_time': 0.05, 'headings_count': 0, 'links_count': 0, 'images_count': 1, 'paragraphs_count': 0}
+2025-11-26 15:19:30 - scraper - DEBUG - scraper.py:462 - crawl_website - [req_1764150570_2316503199872370036] Added 0 internal links to crawl queue
+2025-11-26 15:19:31 - scraper - INFO - scraper.py:466 - crawl_website - [req_1764150570_2316503199872370036] Website crawl completed. Scraped 1 pages
+2025-11-26 15:19:31 - scraper - INFO - scraper.py:520 - process_url - [req_1764150570_2316503199872370036] URL processing successful. Total pages: 2
+2025-11-26 15:19:31 - scraper - INFO - scraper.py:486 - process_input - [req_1764150570_2316503199872370036] Input processing completed. Success: True
+2025-11-26 15:19:31 - __main__ - INFO - app.py:91 - scrape_content - [req_1764150570_2316503199872370036] Scraping completed in 1.49s - Success: True
+2025-11-26 15:19:31 - __main__ - INFO - app.py:47 - log_response_info - Response: 200 - Size: 2980 bytes
+2025-11-26 15:19:31 - werkzeug - INFO - _internal.py:97 - _log - 127.0.0.1 - - [26/Nov/2025 15:19:31] "POST /scrape HTTP/1.1" 200 -
+2025-11-26 15:19:52 - __main__ - INFO - app.py:36 - log_request_info - Request: POST /scrape - IP: 127.0.0.1
+2025-11-26 15:19:52 - __main__ - DEBUG - app.py:40 - log_request_info - Request JSON data: {
+  "input": "https://wikipedia.com"
+}
+2025-11-26 15:19:52 - __main__ - INFO - app.py:60 - scrape_content - [req_1764150592_-8678794152096325185] Starting scrape request
+2025-11-26 15:19:52 - __main__ - INFO - app.py:82 - scrape_content - [req_1764150592_-8678794152096325185] Processing input: https://wikipedia.com
+2025-11-26 15:19:52 - scraper - INFO - scraper.py:471 - process_input - [req_1764150592_-8678794152096325185] Processing input: 'https://wikipedia.com'
+2025-11-26 15:19:52 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wikipedia.com -> True
+2025-11-26 15:19:52 - scraper - DEBUG - scraper.py:476 - process_input - [req_1764150592_-8678794152096325185] Input detected as URL: https://wikipedia.com
+2025-11-26 15:19:52 - scraper - INFO - scraper.py:491 - process_url - [req_1764150592_-8678794152096325185] Processing URL: https://wikipedia.com
+2025-11-26 15:19:52 - scraper - INFO - scraper.py:100 - scrape_page - [req_1764150592_-8678794152096325185] Starting to scrape page: https://wikipedia.com
+2025-11-26 15:19:52 - scraper - DEBUG - scraper.py:104 - scrape_page - [req_1764150592_-8678794152096325185] Making HTTP request to: https://wikipedia.com
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:107 - scrape_page - [req_1764150592_-8678794152096325185] HTTP response: 200, Size: 157169 bytes
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:110 - scrape_page - [req_1764150592_-8678794152096325185] HTML parsed successfully
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:180 - _extract_title - Extracted title: Wikipedia...
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:191 - _extract_meta - Extracted 0 meta tags
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:208 - _extract_headings - Extracted 7 headings
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:251 - _extract_text_content - Extracted text content: 12 paragraphs, 14 bold texts, 2 italic texts
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://en.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ja.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://de.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ru.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://es.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://it.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ar.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://de.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://en.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://es.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://it.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://arz.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ja.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ceb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://uk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://vi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://war.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ru.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://af.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sq.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ast.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://az.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zh-min-nan.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://be.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ca.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cs.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://da.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://et.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://el.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://eo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://eu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ko.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://id.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://he.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ka.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lld.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://la.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ms.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://min.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://my.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://no.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ce.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://uz.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ro.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://simple.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ta.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://te.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://th.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://azb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ur.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zh-yue.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ace.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://als.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://am.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://an.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hyw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gor.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ban.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bjn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://map-bms.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ba.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://be-tarask.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bcl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bpy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bar.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bs.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://br.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dag.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ary.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://eml.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hif.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ff.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ga.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gd.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://glk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hak.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ha.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hsb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://io.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ig.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ilo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ia.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ie.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://os.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://is.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://jv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pam.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://km.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://avk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ht.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ku.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ckb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ky.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mrj.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lij.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://li.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lmo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mai.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ml.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://xmf.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mzn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cdo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nap.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://new.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://frr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://oc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mhr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://or.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://as.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pnb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ps.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pms.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nds.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kaa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://crh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://qu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rue.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sat.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://skr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sah.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sco.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://scn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://si.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sd.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://szl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://su.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://shi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://shn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zgh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tly.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tum.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bug.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://vec.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://vo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zh-classical.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wuu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://yi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://yo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://diq.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bat-smg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ne.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mni.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lad.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kbd.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ang.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://smn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://anp.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ab.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://roa-rup.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://frp.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://atj.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://arc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://av.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ay.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bbc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bew.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bxr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cbk-zam.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ny.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://co.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://za.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dga.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://se.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pdc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dsb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dtp.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://myv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ext.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ee.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gur.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fon.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fur.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gag.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://inh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gpe.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ki.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gan.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://guw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://xal.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://haw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://iba.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kbp.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://knc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://csb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://koi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gom.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ks.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gcr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kge.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kus.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lbe.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ltg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lez.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nia.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ln.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lfn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://olo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://jbo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mad.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://btm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fat.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mwl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mdf.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mnw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mos.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nqo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fj.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nah.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pcm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nds-nl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nrm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nov.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://om.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://blk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pag.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ami.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pap.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://jam.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pfl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pcd.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://krc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ksh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://szy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://trv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://stq.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://st.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nso.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://syl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://so.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://srn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ss.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ty.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kab.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://roa-tara.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tay.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tet.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tpi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://to.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kcg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tyv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://udm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ug.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://vep.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fiu-vro.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://vls.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://xh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zea.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://alt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://awa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dty.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tcy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rki.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bdr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ch.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dz.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://got.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://igl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://iu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ik.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nup.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ann.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pwn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pnt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rmy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rsk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tdd.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ti.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://din.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://chr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://chy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ts.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ve.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://guc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ady.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://meta.wikimedia.org/wiki/Special:MyLanguage/List_of_Wikipedias -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wikipedia.com -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wikipedia.com -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wikipedia.com -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wikipedia.com -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&wmf_source=portalFooter -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://play.google.com/store/apps/details?id=org.wikipedia&referrer=utm_source%3Dportal%26utm_medium%3Dbutton%26anid%3Dadmob -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://itunes.apple.com/app/apple-store/id324715238?pt=208305&ct=portal&mt=8 -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://commons.wikimedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikivoyage.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wiktionary.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikibooks.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikinews.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikidata.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikiversity.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikiquote.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.mediawiki.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikisource.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://species.wikimedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikifunctions.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://meta.wikimedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://creativecommons.org/licenses/by-sa/4.0/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:282 - _extract_links - Extracted 376 links (372 external)
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:306 - _extract_images - Extracted 1 images
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:339 - _extract_tables - Extracted 0 tables
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:378 - _extract_lists - Extracted 7 lists
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:411 - _extract_forms - Extracted 1 forms
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:423 - _extract_metadata - Extracted metadata: {'content_type': 'text/html', 'encoding': 'ISO-8859-1', 'language': 'en', 'response_size': 157169, 'status_code': 200}
+2025-11-26 15:19:54 - scraper - INFO - scraper.py:142 - scrape_page - [req_1764150592_-8678794152096325185] Page scraped successfully: https://wikipedia.com
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:143 - scrape_page - [req_1764150592_-8678794152096325185] Scraping stats: {'processing_time': 1.41, 'headings_count': 7, 'links_count': 376, 'images_count': 1, 'paragraphs_count': 12}
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:584 - _is_homepage - Homepage check: https://wikipedia.com -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:507 - process_url - [req_1764150592_-8678794152096325185] URL is homepage, starting additional crawl
+2025-11-26 15:19:54 - scraper - INFO - scraper.py:428 - crawl_website - [req_1764150592_-8678794152096325185] Starting website crawl: https://wikipedia.com, max_pages: 2, max_depth: 1
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:46 - extract_domain - Extracted domain: https://wikipedia.com -> wikipedia.com
+2025-11-26 15:19:54 - scraper - INFO - scraper.py:443 - crawl_website - [req_1764150592_-8678794152096325185] Crawling page 1/2: https://wikipedia.com (depth: 0)
+2025-11-26 15:19:54 - scraper - INFO - scraper.py:100 - scrape_page - [req_1764150592_-8678794152096325185] Starting to scrape page: https://wikipedia.com
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:104 - scrape_page - [req_1764150592_-8678794152096325185] Making HTTP request to: https://wikipedia.com
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:107 - scrape_page - [req_1764150592_-8678794152096325185] HTTP response: 200, Size: 157169 bytes
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:110 - scrape_page - [req_1764150592_-8678794152096325185] HTML parsed successfully
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:180 - _extract_title - Extracted title: Wikipedia...
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:191 - _extract_meta - Extracted 0 meta tags
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:208 - _extract_headings - Extracted 7 headings
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:251 - _extract_text_content - Extracted text content: 12 paragraphs, 14 bold texts, 2 italic texts
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://en.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ja.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://de.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ru.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://es.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://it.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ar.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://de.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://en.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://es.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://it.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://arz.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ja.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ceb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://uk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://vi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://war.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ru.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://af.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sq.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ast.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://az.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zh-min-nan.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://be.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ca.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cs.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://da.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://et.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://el.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://eo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://eu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ko.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://id.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://he.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ka.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lld.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://la.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ms.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://min.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://my.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://no.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ce.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://uz.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ro.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://simple.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ta.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://te.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://th.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://azb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ur.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zh-yue.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ace.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://als.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://am.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://an.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hyw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gor.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ban.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bjn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://map-bms.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ba.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://be-tarask.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bcl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bpy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bar.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bs.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://br.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dag.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ary.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://eml.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hif.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ff.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ga.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gd.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://glk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hak.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ha.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://hsb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://io.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ig.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ilo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ia.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ie.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://os.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://is.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://jv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pam.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://km.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://avk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ht.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ku.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ckb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ky.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mrj.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lij.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://li.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lmo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mai.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ml.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://xmf.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mzn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cdo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nap.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://new.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://frr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://oc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mhr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://or.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://as.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pnb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ps.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pms.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nds.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kaa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://crh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://qu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rue.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sat.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://skr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sah.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sco.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://scn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://si.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sd.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://szl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://su.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://shi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://shn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zgh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tly.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tum.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bug.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://vec.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://vo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zh-classical.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wuu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://yi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://yo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://diq.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bat-smg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ne.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mni.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lad.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kbd.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ang.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://smn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://anp.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ab.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://roa-rup.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://frp.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://atj.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://arc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://av.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ay.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bbc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bew.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bxr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cbk-zam.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ny.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://co.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://za.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dga.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://se.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pdc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dsb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dtp.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://myv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ext.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ee.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gur.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fon.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fur.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gag.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://inh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gpe.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ki.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gan.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://guw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://xal.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://haw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://iba.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kbp.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://knc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://csb.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://koi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gom.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ks.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://gcr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kge.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kus.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lbe.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ltg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lez.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nia.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ln.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lfn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://olo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://jbo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://lg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mad.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://btm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fat.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mwl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mdf.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mnw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://mos.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nqo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fj.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nah.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pcm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nds-nl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nrm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nov.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://om.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://blk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pag.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ami.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pap.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://jam.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pfl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pcd.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://krc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ksh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://szy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://trv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://stq.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://st.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nso.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://syl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://cu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://so.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://srn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ss.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ty.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kab.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://roa-tara.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tay.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tet.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tpi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://to.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tw.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kcg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tyv.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://udm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ug.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://vep.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://fiu-vro.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://vls.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wo.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://xh.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://zea.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://alt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://awa.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dty.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tcy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rki.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bdr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://bm.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ch.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://dz.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://got.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://igl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://iu.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ik.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://kl.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://nup.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ann.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pi.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pwn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://pnt.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rmy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rn.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://rsk.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://sg.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://tdd.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ti.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://din.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://chr.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://chy.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ts.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ve.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://guc.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://ady.wikipedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://meta.wikimedia.org/wiki/Special:MyLanguage/List_of_Wikipedias -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wikipedia.com -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wikipedia.com -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wikipedia.com -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://wikipedia.com -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&wmf_source=portalFooter -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://play.google.com/store/apps/details?id=org.wikipedia&referrer=utm_source%3Dportal%26utm_medium%3Dbutton%26anid%3Dadmob -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://itunes.apple.com/app/apple-store/id324715238?pt=208305&ct=portal&mt=8 -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://commons.wikimedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikivoyage.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wiktionary.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikibooks.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikinews.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikidata.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikiversity.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikiquote.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.mediawiki.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikisource.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://species.wikimedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://www.wikifunctions.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://meta.wikimedia.org/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://creativecommons.org/licenses/by-sa/4.0/ -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy -> True
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:282 - _extract_links - Extracted 376 links (372 external)
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:306 - _extract_images - Extracted 1 images
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:339 - _extract_tables - Extracted 0 tables
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:378 - _extract_lists - Extracted 7 lists
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:411 - _extract_forms - Extracted 1 forms
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:423 - _extract_metadata - Extracted metadata: {'content_type': 'text/html', 'encoding': 'ISO-8859-1', 'language': 'en', 'response_size': 157169, 'status_code': 200}
+2025-11-26 15:19:54 - scraper - INFO - scraper.py:142 - scrape_page - [req_1764150592_-8678794152096325185] Page scraped successfully: https://wikipedia.com
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:143 - scrape_page - [req_1764150592_-8678794152096325185] Scraping stats: {'processing_time': 0.27, 'headings_count': 7, 'links_count': 376, 'images_count': 1, 'paragraphs_count': 12}
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:46 - extract_domain - Extracted domain: https://wikipedia.com -> wikipedia.com
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:46 - extract_domain - Extracted domain: https://wikipedia.com -> wikipedia.com
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:46 - extract_domain - Extracted domain: https://wikipedia.com -> wikipedia.com
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:46 - extract_domain - Extracted domain: https://wikipedia.com -> wikipedia.com
+2025-11-26 15:19:54 - scraper - DEBUG - scraper.py:462 - crawl_website - [req_1764150592_-8678794152096325185] Added 0 internal links to crawl queue
+2025-11-26 15:19:55 - scraper - INFO - scraper.py:466 - crawl_website - [req_1764150592_-8678794152096325185] Website crawl completed. Scraped 1 pages
+2025-11-26 15:19:55 - scraper - INFO - scraper.py:520 - process_url - [req_1764150592_-8678794152096325185] URL processing successful. Total pages: 2
+2025-11-26 15:19:55 - scraper - INFO - scraper.py:486 - process_input - [req_1764150592_-8678794152096325185] Input processing completed. Success: True
+2025-11-26 15:19:55 - __main__ - INFO - app.py:91 - scrape_content - [req_1764150592_-8678794152096325185] Scraping completed in 2.68s - Success: True
+2025-11-26 15:19:55 - __main__ - INFO - app.py:47 - log_response_info - Response: 200 - Size: 266658 bytes
+2025-11-26 15:19:55 - werkzeug - INFO - _internal.py:97 - _log - 127.0.0.1 - - [26/Nov/2025 15:19:55] "POST /scrape HTTP/1.1" 200 -
+2025-11-26 15:20:33 - __main__ - INFO - app.py:36 - log_request_info - Request: POST /scrape - IP: 127.0.0.1
+2025-11-26 15:20:33 - __main__ - DEBUG - app.py:40 - log_request_info - Request JSON data: {
+  "input": "https://chaicode.com"
+}
+2025-11-26 15:20:33 - __main__ - INFO - app.py:60 - scrape_content - [req_1764150633_3173396232539247323] Starting scrape request
+2025-11-26 15:20:33 - __main__ - INFO - app.py:82 - scrape_content - [req_1764150633_3173396232539247323] Processing input: https://chaicode.com
+2025-11-26 15:20:33 - scraper - INFO - scraper.py:471 - process_input - [req_1764150633_3173396232539247323] Processing input: 'https://chaicode.com'
+2025-11-26 15:20:33 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://chaicode.com -> True
+2025-11-26 15:20:33 - scraper - DEBUG - scraper.py:476 - process_input - [req_1764150633_3173396232539247323] Input detected as URL: https://chaicode.com
+2025-11-26 15:20:33 - scraper - INFO - scraper.py:491 - process_url - [req_1764150633_3173396232539247323] Processing URL: https://chaicode.com
+2025-11-26 15:20:33 - scraper - INFO - scraper.py:100 - scrape_page - [req_1764150633_3173396232539247323] Starting to scrape page: https://chaicode.com
+2025-11-26 15:20:33 - scraper - DEBUG - scraper.py:104 - scrape_page - [req_1764150633_3173396232539247323] Making HTTP request to: https://chaicode.com
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:107 - scrape_page - [req_1764150633_3173396232539247323] HTTP response: 200, Size: 2143 bytes
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:110 - scrape_page - [req_1764150633_3173396232539247323] HTML parsed successfully
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:180 - _extract_title - Extracted title: ChaiCode - Home for Programmers...
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:191 - _extract_meta - Extracted 0 meta tags
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:208 - _extract_headings - Extracted 0 headings
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:251 - _extract_text_content - Extracted text content: 0 paragraphs, 0 bold texts, 0 italic texts
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:282 - _extract_links - Extracted 0 links (0 external)
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:306 - _extract_images - Extracted 0 images
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:339 - _extract_tables - Extracted 0 tables
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:378 - _extract_lists - Extracted 0 lists
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:411 - _extract_forms - Extracted 0 forms
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:423 - _extract_metadata - Extracted metadata: {'content_type': 'text/html; charset=UTF-8', 'encoding': 'UTF-8', 'language': 'en', 'response_size': 2143, 'status_code': 200}
+2025-11-26 15:20:34 - scraper - INFO - scraper.py:142 - scrape_page - [req_1764150633_3173396232539247323] Page scraped successfully: https://chaicode.com
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:143 - scrape_page - [req_1764150633_3173396232539247323] Scraping stats: {'processing_time': 1.22, 'headings_count': 0, 'links_count': 0, 'images_count': 0, 'paragraphs_count': 0}
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:584 - _is_homepage - Homepage check: https://chaicode.com -> True
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:507 - process_url - [req_1764150633_3173396232539247323] URL is homepage, starting additional crawl
+2025-11-26 15:20:34 - scraper - INFO - scraper.py:428 - crawl_website - [req_1764150633_3173396232539247323] Starting website crawl: https://chaicode.com, max_pages: 2, max_depth: 1
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:46 - extract_domain - Extracted domain: https://chaicode.com -> chaicode.com
+2025-11-26 15:20:34 - scraper - INFO - scraper.py:443 - crawl_website - [req_1764150633_3173396232539247323] Crawling page 1/2: https://chaicode.com (depth: 0)
+2025-11-26 15:20:34 - scraper - INFO - scraper.py:100 - scrape_page - [req_1764150633_3173396232539247323] Starting to scrape page: https://chaicode.com
+2025-11-26 15:20:34 - scraper - DEBUG - scraper.py:104 - scrape_page - [req_1764150633_3173396232539247323] Making HTTP request to: https://chaicode.com
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:107 - scrape_page - [req_1764150633_3173396232539247323] HTTP response: 200, Size: 2143 bytes
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:110 - scrape_page - [req_1764150633_3173396232539247323] HTML parsed successfully
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:180 - _extract_title - Extracted title: ChaiCode - Home for Programmers...
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:191 - _extract_meta - Extracted 0 meta tags
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:208 - _extract_headings - Extracted 0 headings
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:251 - _extract_text_content - Extracted text content: 0 paragraphs, 0 bold texts, 0 italic texts
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:282 - _extract_links - Extracted 0 links (0 external)
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:306 - _extract_images - Extracted 0 images
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:339 - _extract_tables - Extracted 0 tables
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:378 - _extract_lists - Extracted 0 lists
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:411 - _extract_forms - Extracted 0 forms
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:423 - _extract_metadata - Extracted metadata: {'content_type': 'text/html; charset=UTF-8', 'encoding': 'UTF-8', 'language': 'en', 'response_size': 2143, 'status_code': 200}
+2025-11-26 15:20:35 - scraper - INFO - scraper.py:142 - scrape_page - [req_1764150633_3173396232539247323] Page scraped successfully: https://chaicode.com
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:143 - scrape_page - [req_1764150633_3173396232539247323] Scraping stats: {'processing_time': 0.24, 'headings_count': 0, 'links_count': 0, 'images_count': 0, 'paragraphs_count': 0}
+2025-11-26 15:20:35 - scraper - DEBUG - scraper.py:462 - crawl_website - [req_1764150633_3173396232539247323] Added 0 internal links to crawl queue
+2025-11-26 15:20:36 - scraper - INFO - scraper.py:466 - crawl_website - [req_1764150633_3173396232539247323] Website crawl completed. Scraped 1 pages
+2025-11-26 15:20:36 - scraper - INFO - scraper.py:520 - process_url - [req_1764150633_3173396232539247323] URL processing successful. Total pages: 2
+2025-11-26 15:20:36 - scraper - INFO - scraper.py:486 - process_input - [req_1764150633_3173396232539247323] Input processing completed. Success: True
+2025-11-26 15:20:36 - __main__ - INFO - app.py:91 - scrape_content - [req_1764150633_3173396232539247323] Scraping completed in 2.46s - Success: True
+2025-11-26 15:20:36 - __main__ - INFO - app.py:47 - log_response_info - Response: 200 - Size: 2367 bytes
+2025-11-26 15:20:36 - werkzeug - INFO - _internal.py:97 - _log - 127.0.0.1 - - [26/Nov/2025 15:20:36] "POST /scrape HTTP/1.1" 200 -
+2025-11-26 15:21:17 - __main__ - INFO - app.py:36 - log_request_info - Request: POST /scrape - IP: 127.0.0.1
+2025-11-26 15:21:17 - __main__ - DEBUG - app.py:40 - log_request_info - Request JSON data: {
+  "input": "https://chaicode.com/"
+}
+2025-11-26 15:21:17 - __main__ - INFO - app.py:60 - scrape_content - [req_1764150677_-4795422976789196813] Starting scrape request
+2025-11-26 15:21:17 - __main__ - INFO - app.py:82 - scrape_content - [req_1764150677_-4795422976789196813] Processing input: https://chaicode.com/
+2025-11-26 15:21:17 - scraper - INFO - scraper.py:471 - process_input - [req_1764150677_-4795422976789196813] Processing input: 'https://chaicode.com/'
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:29 - is_valid_url - URL validation: https://chaicode.com/ -> True
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:476 - process_input - [req_1764150677_-4795422976789196813] Input detected as URL: https://chaicode.com/
+2025-11-26 15:21:17 - scraper - INFO - scraper.py:491 - process_url - [req_1764150677_-4795422976789196813] Processing URL: https://chaicode.com/
+2025-11-26 15:21:17 - scraper - INFO - scraper.py:100 - scrape_page - [req_1764150677_-4795422976789196813] Starting to scrape page: https://chaicode.com/
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:104 - scrape_page - [req_1764150677_-4795422976789196813] Making HTTP request to: https://chaicode.com/
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:107 - scrape_page - [req_1764150677_-4795422976789196813] HTTP response: 200, Size: 2143 bytes
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:110 - scrape_page - [req_1764150677_-4795422976789196813] HTML parsed successfully
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:180 - _extract_title - Extracted title: ChaiCode - Home for Programmers...
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:191 - _extract_meta - Extracted 0 meta tags
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:208 - _extract_headings - Extracted 0 headings
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:251 - _extract_text_content - Extracted text content: 0 paragraphs, 0 bold texts, 0 italic texts
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:282 - _extract_links - Extracted 0 links (0 external)
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:306 - _extract_images - Extracted 0 images
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:339 - _extract_tables - Extracted 0 tables
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:378 - _extract_lists - Extracted 0 lists
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:411 - _extract_forms - Extracted 0 forms
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:423 - _extract_metadata - Extracted metadata: {'content_type': 'text/html; charset=UTF-8', 'encoding': 'UTF-8', 'language': 'en', 'response_size': 2143, 'status_code': 200}
+2025-11-26 15:21:17 - scraper - INFO - scraper.py:142 - scrape_page - [req_1764150677_-4795422976789196813] Page scraped successfully: https://chaicode.com/
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:143 - scrape_page - [req_1764150677_-4795422976789196813] Scraping stats: {'processing_time': 0.21, 'headings_count': 0, 'links_count': 0, 'images_count': 0, 'paragraphs_count': 0}
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:584 - _is_homepage - Homepage check: https://chaicode.com/ -> True
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:507 - process_url - [req_1764150677_-4795422976789196813] URL is homepage, starting additional crawl
+2025-11-26 15:21:17 - scraper - INFO - scraper.py:428 - crawl_website - [req_1764150677_-4795422976789196813] Starting website crawl: https://chaicode.com/, max_pages: 2, max_depth: 1
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:46 - extract_domain - Extracted domain: https://chaicode.com/ -> chaicode.com
+2025-11-26 15:21:17 - scraper - INFO - scraper.py:443 - crawl_website - [req_1764150677_-4795422976789196813] Crawling page 1/2: https://chaicode.com/ (depth: 0)
+2025-11-26 15:21:17 - scraper - INFO - scraper.py:100 - scrape_page - [req_1764150677_-4795422976789196813] Starting to scrape page: https://chaicode.com/
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:104 - scrape_page - [req_1764150677_-4795422976789196813] Making HTTP request to: https://chaicode.com/
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:107 - scrape_page - [req_1764150677_-4795422976789196813] HTTP response: 200, Size: 2143 bytes
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:110 - scrape_page - [req_1764150677_-4795422976789196813] HTML parsed successfully
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:180 - _extract_title - Extracted title: ChaiCode - Home for Programmers...
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:191 - _extract_meta - Extracted 0 meta tags
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:208 - _extract_headings - Extracted 0 headings
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:251 - _extract_text_content - Extracted text content: 0 paragraphs, 0 bold texts, 0 italic texts
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:282 - _extract_links - Extracted 0 links (0 external)
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:306 - _extract_images - Extracted 0 images
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:339 - _extract_tables - Extracted 0 tables
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:378 - _extract_lists - Extracted 0 lists
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:411 - _extract_forms - Extracted 0 forms
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:423 - _extract_metadata - Extracted metadata: {'content_type': 'text/html; charset=UTF-8', 'encoding': 'UTF-8', 'language': 'en', 'response_size': 2143, 'status_code': 200}
+2025-11-26 15:21:17 - scraper - INFO - scraper.py:142 - scrape_page - [req_1764150677_-4795422976789196813] Page scraped successfully: https://chaicode.com/
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:143 - scrape_page - [req_1764150677_-4795422976789196813] Scraping stats: {'processing_time': 0.16, 'headings_count': 0, 'links_count': 0, 'images_count': 0, 'paragraphs_count': 0}
+2025-11-26 15:21:17 - scraper - DEBUG - scraper.py:462 - crawl_website - [req_1764150677_-4795422976789196813] Added 0 internal links to crawl queue
+2025-11-26 15:21:18 - scraper - INFO - scraper.py:466 - crawl_website - [req_1764150677_-4795422976789196813] Website crawl completed. Scraped 1 pages
+2025-11-26 15:21:18 - scraper - INFO - scraper.py:520 - process_url - [req_1764150677_-4795422976789196813] URL processing successful. Total pages: 2
+2025-11-26 15:21:18 - scraper - INFO - scraper.py:486 - process_input - [req_1764150677_-4795422976789196813] Input processing completed. Success: True
+2025-11-26 15:21:18 - __main__ - INFO - app.py:91 - scrape_content - [req_1764150677_-4795422976789196813] Scraping completed in 1.39s - Success: True
+2025-11-26 15:21:18 - __main__ - INFO - app.py:47 - log_response_info - Response: 200 - Size: 2372 bytes
+2025-11-26 15:21:18 - werkzeug - INFO - _internal.py:97 - _log - 127.0.0.1 - - [26/Nov/2025 15:21:18] "POST /scrape HTTP/1.1" 200 -
+2025-11-26 15:38:37 - werkzeug - INFO - _internal.py:97 - _log -  * Detected change in 'C:\\Users\\Abhishek\\Desktop\\Experiments\\WebSummarizer\\scraper.py', reloading
+2025-11-26 15:38:37 - werkzeug - INFO - _internal.py:97 - _log -  * Restarting with stat
