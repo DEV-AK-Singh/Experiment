@@ -1,0 +1,21 @@
+2025-11-27 13:06:18,649 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.54.224.153:5000
+2025-11-27 13:06:18,649 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-27 13:06:18,651 - INFO -  * Restarting with stat
+2025-11-27 13:06:19,116 - WARNING -  * Debugger is active!
+2025-11-27 13:06:19,119 - INFO -  * Debugger PIN: 259-049-464
+2025-11-27 13:06:44,804 - INFO - 127.0.0.1 - - [27/Nov/2025 13:06:44] "GET / HTTP/1.1" 200 -
+2025-11-27 13:06:45,082 - INFO - 127.0.0.1 - - [27/Nov/2025 13:06:45] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-27 13:06:45,157 - INFO - 127.0.0.1 - - [27/Nov/2025 13:06:45] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-11-27 13:06:45,174 - INFO - 127.0.0.1 - - [27/Nov/2025 13:06:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-27 13:07:51,542 - INFO - 127.0.0.1 - - [27/Nov/2025 13:07:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-11-27 13:07:51,887 - INFO - 127.0.0.1 - - [27/Nov/2025 13:07:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-27 13:08:54,178 - INFO - 127.0.0.1 - - [27/Nov/2025 13:08:54] "POST /deep-crawl HTTP/1.1" 200 -
+2025-11-27 13:10:06,746 - INFO - 127.0.0.1 - - [27/Nov/2025 13:10:06] "POST /download-report HTTP/1.1" 200 -
+2025-11-27 13:10:20,144 - INFO - 127.0.0.1 - - [27/Nov/2025 13:10:20] "POST /download-report HTTP/1.1" 200 -
+2025-11-27 13:13:47,033 - INFO - 127.0.0.1 - - [27/Nov/2025 13:13:47] "POST /deep-crawl HTTP/1.1" 200 -
+2025-11-27 13:22:20,469 - INFO - 127.0.0.1 - - [27/Nov/2025 13:22:20] "POST /deep-crawl HTTP/1.1" 200 -
+2025-11-27 13:23:13,037 - INFO - 127.0.0.1 - - [27/Nov/2025 13:23:13] "POST /deep-crawl HTTP/1.1" 200 -
+2025-11-27 13:24:00,948 - INFO - 127.0.0.1 - - [27/Nov/2025 13:24:00] "POST /download-report HTTP/1.1" 200 -

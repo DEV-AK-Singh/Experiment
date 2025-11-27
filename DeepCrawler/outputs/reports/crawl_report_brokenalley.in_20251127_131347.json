@@ -1,0 +1,3051 @@
+{
+  "crawl_summary": {
+    "start_url": "https://brokenalley.in",
+    "base_domain": "brokenalley.in",
+    "total_pages_crawled": 8,
+    "max_depth_reached": 3,
+    "crawl_duration_seconds": 101.24,
+    "total_links_found": 113,
+    "total_images_found": 103,
+    "total_tables_found": 0,
+    "total_words_extracted": 378,
+    "crawl_start_time": 1764229323.616574,
+    "crawl_end_time": 1764229424.8563156
+  },
+  "pages_by_depth": [
+    "3834d19cab",
+    "8686b3acb6",
+    "0d3ca32e22",
+    "d3886a5b5c",
+    "43ba6a075b",
+    "64dec36708",
+    "e3d15ecc61",
+    "0441896b44"
+  ],
+  "site_structure": {
+    "most_linked_pages": [
+      [
+        "https://brokenalley.in/profile/login",
+        17
+      ],
+      [
+        "https://brokenalley.in/",
+        16
+      ],
+      [
+        "https://brokenalley.in/collections?category=winter",
+        10
+      ],
+      [
+        "https://brokenalley.in/collections?category=summer",
+        8
+      ],
+      [
+        "https://brokenalley.in/previous-looks",
+        8
+      ],
+      [
+        "https://brokenalley.in/product/pd-5699cb89",
+        6
+      ],
+      [
+        "https://brokenalley.in/product/pd-6d5d5b23",
+        5
+      ],
+      [
+        "https://brokenalley.in/product/pd-8b7874bc",
+        5
+      ],
+      [
+        "https://brokenalley.in/product/pd-6adc2ef2",
+        4
+      ],
+      [
+        "https://brokenalley.in/product/pd-f748c2d2",
+        4
+      ]
+    ],
+    "page_titles": [
+      "Broken Alley: Effortless Style for the Grind and Unwind",
+      "Broken Alley: Effortless Style for the Grind and Unwind",
+      "No Title",
+      "No Title",
+      "No Title",
+      "No Title",
+      "BA SKI CLUB TEXTURED UNISEX SWEATER -",
+      "BA SKI CLUB STRIPED UNISEX SWEATSHIRT  -"
+    ],
+    "unique_domains_linked": []
+  },
+  "content_analysis": {
+    "total_content_volume": {
+      "words": 378,
+      "paragraphs": 32,
+      "images": 103,
+      "tables": 0
+    },
+    "content_types_present": [
+      "images",
+      "formatted_text"
+    ],
+    "common_keywords": [
+      [
+        "black",
+        16
+      ],
+      [
+        "friday",
+        16
+      ],
+      [
+        "sale",
+        16
+      ],
+      [
+        "broken",
+        11
+      ],
+      [
+        "alley",
+        11
+      ],
+      [
+        "clothing",
+        8
+      ],
+      [
+        "2024",
+        8
+      ],
+      [
+        "rights",
+        8
+      ],
+      [
+        "reserved",
+        8
+      ],
+      [
+        "embroidered",
+        5
+      ],
+      [
+        "exchange",
+        4
+      ],
+      [
+        "size",
+        4
+      ],
+      [
+        "store",
+        4
+      ],
+      [
+        "credit",
+        4
+      ],
+      [
+        "cancellations",
+        4
+      ],
+      [
+        "this",
+        3
+      ],
+      [
+        "with",
+        3
+      ],
+      [
+        "front",
+        3
+      ],
+      [
+        "logo",
+        3
+      ],
+      [
+        "club",
+        3
+      ]
+    ]
+  },
+  "detailed_pages": {
+    "3834d19cab": {
+      "url": "https://brokenalley.in",
+      "title": "Broken Alley: Effortless Style for the Grind and Unwind",
+      "text_content": {
+        "paragraphs": [
+          "BLACK FRIDAY SALE 50%OFF",
+          "BLACK FRIDAY SALE 50%OFF",
+          "©Broken Alley Clothing 2024. All rights reserved."
+        ],
+        "lists": [],
+        "bold_text": [
+          "₹6700/- - 50%  ₹3350/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6700/- - 50%  ₹3350/-",
+          "₹7000/- - 50%  ₹3500/-",
+          "₹5400/- - 50%  ₹2699/-",
+          "₹5400/- - 50%  ₹2699/-",
+          "₹3500/- - 43%  ₹2000/-"
+        ],
+        "italic_text": [],
+        "code_blocks": [],
+        "quotes": [],
+        "total_word_count": 15
+      },
+      "links": [
+        {
+          "text": "HOME",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//FALL WINTER’25",
+          "url": "https://brokenalley.in/collections?category=winter",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//SPRING SUMMER’25",
+          "url": "https://brokenalley.in/collections?category=summer",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "PREVIOUS LOOK",
+          "url": "https://brokenalley.in/previous-looks",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": [
+            "['btn',",
+            "'btn-ghost']"
+          ]
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/collections?category=winter",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SKI CLUB TEXTURED UNISEX SWEATERBA SKI CLUB TEXTURED UNISEX SWEATER₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-6adc2ef2",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SKI CLUB STRIPED UNISEX SWEATSHIRT BA SKI CLUB STRIPED UNISEX SWEATSHIRT ₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-6d5d5b23",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BLUE SOUR WASHED UNISEX HOODIE BLUE SOUR WASHED UNISEX HOODIE ₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-5699cb89",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SUEDE-LEATHER UNISEX ZIPPER JACKETBA SUEDE-LEATHER UNISEX ZIPPER JACKET₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-8b7874bc",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "EMBROIDERED FLOW SHIRTEMBROIDERED FLOW SHIRT₹7000/- - 50%  ₹3500/-",
+          "url": "https://brokenalley.in/product/pd-f748c2d2",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "KANTHA EMBROIDERY SHIRT KANTHA EMBROIDERY SHIRT₹5400/- - 50%  ₹2699/-",
+          "url": "https://brokenalley.in/product/pd-4924d6af",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "STITCHED MOSAIC SHIRTSTITCHED MOSAIC SHIRT₹5400/- - 50%  ₹2699/-",
+          "url": "https://brokenalley.in/product/pd-d81f6840",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "SOUR WASHED T- SHIRTSOUR WASHED T- SHIRT₹3500/- - 43%  ₹2000/-",
+          "url": "https://brokenalley.in/product/pd-9306ddc9",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        }
+      ],
+      "images": [
+        {
+          "src": "https://brokenalley.in/assets/blackBAText-qxRQOevY.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['max-w-[180px]',",
+            "'sm:max-w-[240px]']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761153057373-602366174-Artboard 5.jpg",
+          "alt": "Knitted from high-quality wool, this sweater blends athletic inspiration with refined craftsmanship. The navy and white palette evokes a timeless, collegiate spirit, while the soft, textured knit offers exceptional comfort and warmth. The front features an embroidered Broken Alley logo and Ski Club patch, paying homage to vintage sportswear through a modern, elevated lens. With its jersey-inspired silhouette and premium hand feel, this piece captures the essence of relaxed sophistication and effortless cool.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761214240886-25606824-Artboard 1.jpg",
+          "alt": "Crafted from 100% premium cotton terry at 350 GSM, this sweatshirt delivers a perfect balance of structure, softness, and durability. The bold red hue with contrasting white stripe along the arms captures a sense of confident minimalism, while the embroidered logo at the chest lends a refined signature touch. The back features an exclusive Broken Alley Ski Club graphic celebrating the spirit of adventure and effortless cool that defines the brand.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761155349627-217794722-Artboard 9.jpg",
+          "alt": "Meticulously crafted from 400 GSM, 100% cotton fleece, this piece redefines casual luxury. The serene sky-blue tone is artfully disrupted by a sour-wash treatment at the elbows, creating a diffused white gradient that melts organically into the fabric. Cut in an exaggerated oversized silhouette, it drapes effortlessly on your body.\nThis garment has been specially treated to create intentional variations in color and shading, making every piece unique. Handle with care while washing or dry cleaning.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761153449570-583839682-Artboard 13.jpg",
+          "alt": "Expertly tailored from rich suede leather, this jacket embodies refined craftsmanship. The design is elevated with smooth premium leather detailing along the cuffs and front closure, adding depth and texture to its minimalist silhouette. A clean, slightly cropped fit lends a contemporary edge, while high-quality zippers and a discreet inner pocket complete the piece with functional sophistication.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234744537-951145965-Artboard 5.jpg",
+          "alt": "Born in 12th-century Gujarat, Dori embroidery now finds new life in our boxy-fit over shirt ,blending timeless craftsmanship and modern streetwear fashion. Made from 100% denim cotton, it features a lapel collar, front opening, and interior button fastening.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234751696-535128777-Artboard 3.jpg",
+          "alt": "A traditional hand-stitching art from Eastern India. Each handmade piece features unique patterns crafted with simple running stitches. Our 100% cotton oversized boxy-fit shirt blend this heritage craft with modern streetwear fashion.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234763210-439381014-Artboard 1.jpg",
+          "alt": "100% cotton oversized boxy-fit shirt with mosaic broken alley embroidered at the back and initials on the front, blending Indian appliqué work with modern streetwear fashion\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234769502-935064349-Artboard 7.jpg",
+          "alt": "Sour washed 100% cotton oversized boxy-fit textured T-shirt with embroidered broken alley on the front.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['w-48']"
+          ]
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "headings_structure": {
+        "h1": [
+          "CART IS EMPTY..",
+          "BROKEN ALLEY //FALL WINTER’25 COLLECTION LIVE NOW!",
+          "BROKEN ALLEY //SPRING SUMMER’25 COLLECTION"
+        ],
+        "h2": [],
+        "h3": [
+          "BA SKI CLUB TEXTURED UNISEX SWEATER",
+          "BA SKI CLUB TEXTURED UNISEX SWEATER",
+          "BA SKI CLUB STRIPED UNISEX SWEATSHIRT",
+          "BA SKI CLUB STRIPED UNISEX SWEATSHIRT",
+          "BLUE SOUR WASHED UNISEX HOODIE",
+          "BLUE SOUR WASHED UNISEX HOODIE",
+          "BA SUEDE-LEATHER UNISEX ZIPPER JACKET",
+          "BA SUEDE-LEATHER UNISEX ZIPPER JACKET",
+          "EMBROIDERED FLOW SHIRT",
+          "EMBROIDERED FLOW SHIRT",
+          "KANTHA EMBROIDERY SHIRT",
+          "KANTHA EMBROIDERY SHIRT",
+          "STITCHED MOSAIC SHIRT",
+          "STITCHED MOSAIC SHIRT",
+          "SOUR WASHED T- SHIRT",
+          "SOUR WASHED T- SHIRT"
+        ],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Discover Broken Alley, a premium streetwear brand crafted for those who hustle hard and relax harder. Shop unique designs that balance ambition and ease.",
+        "keywords": "Broken Alley, brokenalley, streetwear, premium clothing, hustle, relax, balance, style, fashion, effortless fashion",
+        "author": "Broken Alley",
+        "robots": "index, follow",
+        "og:title": "Broken Alley: Effortless Style for the Grind and Unwind",
+        "og:description": "Born in 2024, Broken Alley is all about balance over burnout and creativity over clocking in. Discover collections crafted for ambition and relaxation.",
+        "og:image": "https://brokenalley.in/BAIcon.png",
+        "og:url": "https://brokenalley.in",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Broken Alley: Effortless Style for the Grind and Unwind",
+        "twitter:description": "Shop Broken Alley for premium streetwear that balances work and relaxation. Style that doesn’t scream, 'I tried too hard.'",
+        "twitter:image": "https://brokenalley.in/BAIcon.png",
+        "twitter:url": "https://brokenalley.in"
+      },
+      "links_found": 16,
+      "images_found": 12,
+      "tables_found": 0,
+      "forms_found": 0,
+      "timestamp": 1764229336.5298293
+    },
+    "8686b3acb6": {
+      "url": "https://brokenalley.in/",
+      "title": "Broken Alley: Effortless Style for the Grind and Unwind",
+      "text_content": {
+        "paragraphs": [
+          "BLACK FRIDAY SALE 50%OFF",
+          "BLACK FRIDAY SALE 50%OFF",
+          "©Broken Alley Clothing 2024. All rights reserved."
+        ],
+        "lists": [],
+        "bold_text": [
+          "₹6700/- - 50%  ₹3350/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6700/- - 50%  ₹3350/-",
+          "₹7000/- - 50%  ₹3500/-",
+          "₹5400/- - 50%  ₹2699/-",
+          "₹5400/- - 50%  ₹2699/-",
+          "₹3500/- - 43%  ₹2000/-"
+        ],
+        "italic_text": [],
+        "code_blocks": [],
+        "quotes": [],
+        "total_word_count": 15
+      },
+      "links": [
+        {
+          "text": "HOME",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//FALL WINTER’25",
+          "url": "https://brokenalley.in/collections?category=winter",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//SPRING SUMMER’25",
+          "url": "https://brokenalley.in/collections?category=summer",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "PREVIOUS LOOK",
+          "url": "https://brokenalley.in/previous-looks",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": [
+            "['btn',",
+            "'btn-ghost']"
+          ]
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/collections?category=winter",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SKI CLUB TEXTURED UNISEX SWEATERBA SKI CLUB TEXTURED UNISEX SWEATER₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-6adc2ef2",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SKI CLUB STRIPED UNISEX SWEATSHIRT BA SKI CLUB STRIPED UNISEX SWEATSHIRT ₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-6d5d5b23",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BLUE SOUR WASHED UNISEX HOODIE BLUE SOUR WASHED UNISEX HOODIE ₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-5699cb89",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SUEDE-LEATHER UNISEX ZIPPER JACKETBA SUEDE-LEATHER UNISEX ZIPPER JACKET₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-8b7874bc",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "EMBROIDERED FLOW SHIRTEMBROIDERED FLOW SHIRT₹7000/- - 50%  ₹3500/-",
+          "url": "https://brokenalley.in/product/pd-f748c2d2",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "KANTHA EMBROIDERY SHIRT KANTHA EMBROIDERY SHIRT₹5400/- - 50%  ₹2699/-",
+          "url": "https://brokenalley.in/product/pd-4924d6af",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "STITCHED MOSAIC SHIRTSTITCHED MOSAIC SHIRT₹5400/- - 50%  ₹2699/-",
+          "url": "https://brokenalley.in/product/pd-d81f6840",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "SOUR WASHED T- SHIRTSOUR WASHED T- SHIRT₹3500/- - 43%  ₹2000/-",
+          "url": "https://brokenalley.in/product/pd-9306ddc9",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        }
+      ],
+      "images": [
+        {
+          "src": "https://brokenalley.in/assets/blackBAText-qxRQOevY.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['max-w-[180px]',",
+            "'sm:max-w-[240px]']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761153057373-602366174-Artboard 5.jpg",
+          "alt": "Knitted from high-quality wool, this sweater blends athletic inspiration with refined craftsmanship. The navy and white palette evokes a timeless, collegiate spirit, while the soft, textured knit offers exceptional comfort and warmth. The front features an embroidered Broken Alley logo and Ski Club patch, paying homage to vintage sportswear through a modern, elevated lens. With its jersey-inspired silhouette and premium hand feel, this piece captures the essence of relaxed sophistication and effortless cool.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761214240886-25606824-Artboard 1.jpg",
+          "alt": "Crafted from 100% premium cotton terry at 350 GSM, this sweatshirt delivers a perfect balance of structure, softness, and durability. The bold red hue with contrasting white stripe along the arms captures a sense of confident minimalism, while the embroidered logo at the chest lends a refined signature touch. The back features an exclusive Broken Alley Ski Club graphic celebrating the spirit of adventure and effortless cool that defines the brand.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761155349627-217794722-Artboard 9.jpg",
+          "alt": "Meticulously crafted from 400 GSM, 100% cotton fleece, this piece redefines casual luxury. The serene sky-blue tone is artfully disrupted by a sour-wash treatment at the elbows, creating a diffused white gradient that melts organically into the fabric. Cut in an exaggerated oversized silhouette, it drapes effortlessly on your body.\nThis garment has been specially treated to create intentional variations in color and shading, making every piece unique. Handle with care while washing or dry cleaning.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761153449570-583839682-Artboard 13.jpg",
+          "alt": "Expertly tailored from rich suede leather, this jacket embodies refined craftsmanship. The design is elevated with smooth premium leather detailing along the cuffs and front closure, adding depth and texture to its minimalist silhouette. A clean, slightly cropped fit lends a contemporary edge, while high-quality zippers and a discreet inner pocket complete the piece with functional sophistication.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234744537-951145965-Artboard 5.jpg",
+          "alt": "Born in 12th-century Gujarat, Dori embroidery now finds new life in our boxy-fit over shirt ,blending timeless craftsmanship and modern streetwear fashion. Made from 100% denim cotton, it features a lapel collar, front opening, and interior button fastening.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234751696-535128777-Artboard 3.jpg",
+          "alt": "A traditional hand-stitching art from Eastern India. Each handmade piece features unique patterns crafted with simple running stitches. Our 100% cotton oversized boxy-fit shirt blend this heritage craft with modern streetwear fashion.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234763210-439381014-Artboard 1.jpg",
+          "alt": "100% cotton oversized boxy-fit shirt with mosaic broken alley embroidered at the back and initials on the front, blending Indian appliqué work with modern streetwear fashion\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234769502-935064349-Artboard 7.jpg",
+          "alt": "Sour washed 100% cotton oversized boxy-fit textured T-shirt with embroidered broken alley on the front.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['w-48']"
+          ]
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "headings_structure": {
+        "h1": [
+          "CART IS EMPTY..",
+          "BROKEN ALLEY //FALL WINTER’25 COLLECTION LIVE NOW!",
+          "BROKEN ALLEY //SPRING SUMMER’25 COLLECTION"
+        ],
+        "h2": [],
+        "h3": [
+          "BA SKI CLUB TEXTURED UNISEX SWEATER",
+          "BA SKI CLUB TEXTURED UNISEX SWEATER",
+          "BA SKI CLUB STRIPED UNISEX SWEATSHIRT",
+          "BA SKI CLUB STRIPED UNISEX SWEATSHIRT",
+          "BLUE SOUR WASHED UNISEX HOODIE",
+          "BLUE SOUR WASHED UNISEX HOODIE",
+          "BA SUEDE-LEATHER UNISEX ZIPPER JACKET",
+          "BA SUEDE-LEATHER UNISEX ZIPPER JACKET",
+          "EMBROIDERED FLOW SHIRT",
+          "EMBROIDERED FLOW SHIRT",
+          "KANTHA EMBROIDERY SHIRT",
+          "KANTHA EMBROIDERY SHIRT",
+          "STITCHED MOSAIC SHIRT",
+          "STITCHED MOSAIC SHIRT",
+          "SOUR WASHED T- SHIRT",
+          "SOUR WASHED T- SHIRT"
+        ],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "description": "Discover Broken Alley, a premium streetwear brand crafted for those who hustle hard and relax harder. Shop unique designs that balance ambition and ease.",
+        "keywords": "Broken Alley, brokenalley, streetwear, premium clothing, hustle, relax, balance, style, fashion, effortless fashion",
+        "author": "Broken Alley",
+        "robots": "index, follow",
+        "og:title": "Broken Alley: Effortless Style for the Grind and Unwind",
+        "og:description": "Born in 2024, Broken Alley is all about balance over burnout and creativity over clocking in. Discover collections crafted for ambition and relaxation.",
+        "og:image": "https://brokenalley.in/BAIcon.png",
+        "og:url": "https://brokenalley.in",
+        "og:type": "website",
+        "twitter:card": "summary_large_image",
+        "twitter:title": "Broken Alley: Effortless Style for the Grind and Unwind",
+        "twitter:description": "Shop Broken Alley for premium streetwear that balances work and relaxation. Style that doesn’t scream, 'I tried too hard.'",
+        "twitter:image": "https://brokenalley.in/BAIcon.png",
+        "twitter:url": "https://brokenalley.in"
+      },
+      "links_found": 16,
+      "images_found": 12,
+      "tables_found": 0,
+      "forms_found": 0,
+      "timestamp": 1764229356.9386442
+    },
+    "0d3ca32e22": {
+      "url": "https://brokenalley.in/collections?category=winter",
+      "title": "No Title",
+      "text_content": {
+        "paragraphs": [
+          "BLACK FRIDAY SALE 50%OFF",
+          "BLACK FRIDAY SALE 50%OFF",
+          "©Broken Alley Clothing 2024. All rights reserved."
+        ],
+        "lists": [],
+        "bold_text": [
+          "₹6700/- - 50%  ₹3350/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6700/- - 50%  ₹3350/-",
+          "₹8000/- - 50%  ₹4000/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6700/- - 50%  ₹3350/-",
+          "₹6700/- - 50%  ₹3350/-"
+        ],
+        "italic_text": [],
+        "code_blocks": [],
+        "quotes": [],
+        "total_word_count": 15
+      },
+      "links": [
+        {
+          "text": "HOME",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//FALL WINTER’25",
+          "url": "https://brokenalley.in/collections?category=winter",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//SPRING SUMMER’25",
+          "url": "https://brokenalley.in/collections?category=summer",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "PREVIOUS LOOK",
+          "url": "https://brokenalley.in/previous-looks",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": [
+            "['btn',",
+            "'btn-ghost']"
+          ]
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SKI CLUB TEXTURED UNISEX SWEATERBA SKI CLUB TEXTURED UNISEX SWEATER₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-6adc2ef2",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SKI CLUB STRIPED UNISEX SWEATSHIRT BA SKI CLUB STRIPED UNISEX SWEATSHIRT ₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-6d5d5b23",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BLUE SOUR WASHED UNISEX HOODIE BLUE SOUR WASHED UNISEX HOODIE ₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-5699cb89",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SUEDE-LEATHER UNISEX ZIPPER JACKETBA SUEDE-LEATHER UNISEX ZIPPER JACKET₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-8b7874bc",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA KANTHA UNISEX CROPPED TRENCHCOATBA KANTHA UNISEX CROPPED TRENCHCOAT₹8000/- - 50%  ₹4000/-",
+          "url": "https://brokenalley.in/product/pd-6cf576ba",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA BORN TO SKI UNISEX HOODIEBA BORN TO SKI UNISEX HOODIE₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-6a90d1ea",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA MESH UNISEX CREW SWEATERBA MESH UNISEX CREW SWEATER₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-64451ba7",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA CROPPED UNISEX SUEDE TRENCHCOATBA CROPPED UNISEX SUEDE TRENCHCOAT₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-65a1db05",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "UNISEX SUEDE FAUX LEATHER JACKETUNISEX SUEDE FAUX LEATHER JACKET₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-35a4b9b9",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        }
+      ],
+      "images": [
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['max-w-[180px]',",
+            "'sm:max-w-[240px]']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761153057373-602366174-Artboard 5.jpg",
+          "alt": "Knitted from high-quality wool, this sweater blends athletic inspiration with refined craftsmanship. The navy and white palette evokes a timeless, collegiate spirit, while the soft, textured knit offers exceptional comfort and warmth. The front features an embroidered Broken Alley logo and Ski Club patch, paying homage to vintage sportswear through a modern, elevated lens. With its jersey-inspired silhouette and premium hand feel, this piece captures the essence of relaxed sophistication and effortless cool.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761214240886-25606824-Artboard 1.jpg",
+          "alt": "Crafted from 100% premium cotton terry at 350 GSM, this sweatshirt delivers a perfect balance of structure, softness, and durability. The bold red hue with contrasting white stripe along the arms captures a sense of confident minimalism, while the embroidered logo at the chest lends a refined signature touch. The back features an exclusive Broken Alley Ski Club graphic celebrating the spirit of adventure and effortless cool that defines the brand.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761155349627-217794722-Artboard 9.jpg",
+          "alt": "Meticulously crafted from 400 GSM, 100% cotton fleece, this piece redefines casual luxury. The serene sky-blue tone is artfully disrupted by a sour-wash treatment at the elbows, creating a diffused white gradient that melts organically into the fabric. Cut in an exaggerated oversized silhouette, it drapes effortlessly on your body.\nThis garment has been specially treated to create intentional variations in color and shading, making every piece unique. Handle with care while washing or dry cleaning.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761153449570-583839682-Artboard 13.jpg",
+          "alt": "Expertly tailored from rich suede leather, this jacket embodies refined craftsmanship. The design is elevated with smooth premium leather detailing along the cuffs and front closure, adding depth and texture to its minimalist silhouette. A clean, slightly cropped fit lends a contemporary edge, while high-quality zippers and a discreet inner pocket complete the piece with functional sophistication.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154353772-17992992-Artboard 17.jpg",
+          "alt": "A contemporary reinterpretation of classic tailoring, this black cropped trench coat is crafted from lightweight fabric for an effortless drape and refined silhouette. Featuring a notched lapel collar, concealed hip pockets, and a double-breasted closure. Hand-done kantha embroidery adorns the collar, while Brokenn Alley cursive lettering at the back rendered in intricate dori embroidery. Entirely hand-finished and produced in limited numbers, each piece stands as a testament to craftsmanship and individuality.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154730267-623561809-Artboard 9.jpg",
+          "alt": "Precisely crafted from 400 GSM, 100% cotton fleece, this hoodie epitomizes relaxed luxury. The soft beige base is artfully enhanced with an acid-wash treatment, revealing subtle purple gradient patterns that emerge in patches and gradually merge into the fabric, making each piece distinctly individual. Designed with an exaggerated, baggy silhouette, it drapes effortlessly, balancing comfort with contemporary, statement-making sophistication. This garment has been specially treated to create intentional variations in color and shading, making every piece unique.Handle with care while washing or dry cleaning.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154524764-868052369-Artboard 5.jpg",
+          "alt": "Crafted from premium wool, this black mesh crew sweater combines refined texture with contemporary design. The standout feature is the custom Broken Alley cursive lettering, intricately knitted across the back, ensuring each piece exudes individuality and artisanal detail. Heavyweight yet luxuriously soft, it offers a sophisticated layering option with a modern, statement-making edge.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154851863-890088171-Artboard 1.jpg",
+          "alt": "Crafted from premium suede leather, this cropped trench coat exudes refined elegance and modern sophistication. Featuring a broad suede belt at the waist for a tailored, sculpted silhouette and a classic lapel collar, it balances structure with effortless ease. The clean lines and premium finish make it a timeless statement piece, designed to elevate any ensemble with understated luxury.\n\n\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154584541-585042511-Artboard 21.jpg",
+          "alt": "Crafted from premium faux leather and soft, suede-like velvet, this varsity jacket fuses classic athletic design with modern silhouette. Featuring ribbed trims, welt pockets, and snap-button fastening, it offers a refined yet relaxed silhouette. The front showcases a signature BA patch, while the back is elevated with contrast BA logo embroidery, creating a bold, distinctive statement.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['w-48']"
+          ]
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "headings_structure": {
+        "h1": [
+          "CART IS EMPTY.."
+        ],
+        "h2": [],
+        "h3": [
+          "BA SKI CLUB TEXTURED UNISEX SWEATER",
+          "BA SKI CLUB TEXTURED UNISEX SWEATER",
+          "BA SKI CLUB STRIPED UNISEX SWEATSHIRT",
+          "BA SKI CLUB STRIPED UNISEX SWEATSHIRT",
+          "BLUE SOUR WASHED UNISEX HOODIE",
+          "BLUE SOUR WASHED UNISEX HOODIE",
+          "BA SUEDE-LEATHER UNISEX ZIPPER JACKET",
+          "BA SUEDE-LEATHER UNISEX ZIPPER JACKET",
+          "BA KANTHA UNISEX CROPPED TRENCHCOAT",
+          "BA KANTHA UNISEX CROPPED TRENCHCOAT",
+          "BA BORN TO SKI UNISEX HOODIE",
+          "BA BORN TO SKI UNISEX HOODIE",
+          "BA MESH UNISEX CREW SWEATER",
+          "BA MESH UNISEX CREW SWEATER",
+          "BA CROPPED UNISEX SUEDE TRENCHCOAT",
+          "BA CROPPED UNISEX SUEDE TRENCHCOAT",
+          "UNISEX SUEDE FAUX LEATHER JACKET",
+          "UNISEX SUEDE FAUX LEATHER JACKET"
+        ],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0"
+      },
+      "links_found": 16,
+      "images_found": 13,
+      "tables_found": 0,
+      "forms_found": 0,
+      "timestamp": 1764229369.5234911
+    },
+    "d3886a5b5c": {
+      "url": "https://brokenalley.in/collections?category=summer",
+      "title": "No Title",
+      "text_content": {
+        "paragraphs": [
+          "BLACK FRIDAY SALE 50%OFF",
+          "BLACK FRIDAY SALE 50%OFF",
+          "©Broken Alley Clothing 2024. All rights reserved."
+        ],
+        "lists": [],
+        "bold_text": [
+          "₹7000/- - 50%  ₹3500/-",
+          "₹5400/- - 50%  ₹2699/-",
+          "₹5400/- - 50%  ₹2699/-",
+          "₹3500/- - 43%  ₹2000/-"
+        ],
+        "italic_text": [],
+        "code_blocks": [],
+        "quotes": [],
+        "total_word_count": 15
+      },
+      "links": [
+        {
+          "text": "HOME",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//FALL WINTER’25",
+          "url": "https://brokenalley.in/collections?category=winter",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//SPRING SUMMER’25",
+          "url": "https://brokenalley.in/collections?category=summer",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "PREVIOUS LOOK",
+          "url": "https://brokenalley.in/previous-looks",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": [
+            "['btn',",
+            "'btn-ghost']"
+          ]
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "EMBROIDERED FLOW SHIRTEMBROIDERED FLOW SHIRT₹7000/- - 50%  ₹3500/-",
+          "url": "https://brokenalley.in/product/pd-f748c2d2",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "KANTHA EMBROIDERY SHIRT KANTHA EMBROIDERY SHIRT₹5400/- - 50%  ₹2699/-",
+          "url": "https://brokenalley.in/product/pd-4924d6af",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "STITCHED MOSAIC SHIRTSTITCHED MOSAIC SHIRT₹5400/- - 50%  ₹2699/-",
+          "url": "https://brokenalley.in/product/pd-d81f6840",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "SOUR WASHED T- SHIRTSOUR WASHED T- SHIRT₹3500/- - 43%  ₹2000/-",
+          "url": "https://brokenalley.in/product/pd-9306ddc9",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        }
+      ],
+      "images": [
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['max-w-[180px]',",
+            "'sm:max-w-[240px]']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234744537-951145965-Artboard 5.jpg",
+          "alt": "Born in 12th-century Gujarat, Dori embroidery now finds new life in our boxy-fit over shirt ,blending timeless craftsmanship and modern streetwear fashion. Made from 100% denim cotton, it features a lapel collar, front opening, and interior button fastening.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234751696-535128777-Artboard 3.jpg",
+          "alt": "A traditional hand-stitching art from Eastern India. Each handmade piece features unique patterns crafted with simple running stitches. Our 100% cotton oversized boxy-fit shirt blend this heritage craft with modern streetwear fashion.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234763210-439381014-Artboard 1.jpg",
+          "alt": "100% cotton oversized boxy-fit shirt with mosaic broken alley embroidered at the back and initials on the front, blending Indian appliqué work with modern streetwear fashion\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761234769502-935064349-Artboard 7.jpg",
+          "alt": "Sour washed 100% cotton oversized boxy-fit textured T-shirt with embroidered broken alley on the front.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['w-48']"
+          ]
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "headings_structure": {
+        "h1": [
+          "CART IS EMPTY.."
+        ],
+        "h2": [],
+        "h3": [
+          "EMBROIDERED FLOW SHIRT",
+          "EMBROIDERED FLOW SHIRT",
+          "KANTHA EMBROIDERY SHIRT",
+          "KANTHA EMBROIDERY SHIRT",
+          "STITCHED MOSAIC SHIRT",
+          "STITCHED MOSAIC SHIRT",
+          "SOUR WASHED T- SHIRT",
+          "SOUR WASHED T- SHIRT"
+        ],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0"
+      },
+      "links_found": 11,
+      "images_found": 8,
+      "tables_found": 0,
+      "forms_found": 0,
+      "timestamp": 1764229380.0002382
+    },
+    "43ba6a075b": {
+      "url": "https://brokenalley.in/previous-looks",
+      "title": "No Title",
+      "text_content": {
+        "paragraphs": [
+          "BLACK FRIDAY SALE 50%OFF",
+          "BLACK FRIDAY SALE 50%OFF",
+          "©Broken Alley Clothing 2024. All rights reserved."
+        ],
+        "lists": [],
+        "bold_text": [],
+        "italic_text": [],
+        "code_blocks": [],
+        "quotes": [],
+        "total_word_count": 15
+      },
+      "links": [
+        {
+          "text": "HOME",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//FALL WINTER’25",
+          "url": "https://brokenalley.in/collections?category=winter",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//SPRING SUMMER’25",
+          "url": "https://brokenalley.in/collections?category=summer",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "PREVIOUS LOOK",
+          "url": "https://brokenalley.in/previous-looks",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": [
+            "['btn',",
+            "'btn-ghost']"
+          ]
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/product/pd-d81f6840",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/product/pd-4924d6af",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/product/pd-f748c2d2",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/product/pd-97805a50",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/product/pd-35a4b9b9",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/product/pd-308b397b",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/product/pd-6d5d5b23",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/product/pd-5699cb89",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        }
+      ],
+      "images": [
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['max-w-[180px]',",
+            "'sm:max-w-[240px]']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1752736177441-830966572-compressed_IMG_6714.jpg",
+          "alt": "100% cotton oversized boxy-fit shirt with mosaic broken alley embroidered at the back and initials on the front, blending Indian appliqué work with modern streetwear fashion\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1752736184717-945009545-compressed_IMG_6712.jpg",
+          "alt": "A traditional hand-stitching art from Eastern India. Each handmade piece features unique patterns crafted with simple running stitches. Our 100% cotton oversized boxy-fit shirt blend this heritage craft with modern streetwear fashion.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1752736190619-94830913-compressed_IMG_6713.jpg",
+          "alt": "Born in 12th-century Gujarat, Dori embroidery now finds new life in our boxy-fit over shirt ,blending timeless craftsmanship and modern streetwear fashion. Made from 100% denim cotton, it features a lapel collar, front opening, and interior button fastening.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1752736392186-575279830-web3_compressed.jpg",
+          "alt": "This beige denim jacket by Broken Alley comes in a boxy-fit featuring a sweatshirt-style profile. Crafted from pure cotton material, this denim jacket comes with a screen print design at the back, high collar, full sleeves and kangaroo pockets.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1752736378488-66960727-web1_compressed.jpg",
+          "alt": "Collared Varsity jacket with long sleeves. Featuring welt pockets, contrast BA logo embroidery at the back and ribbed trims. BA patch at the front with snap-button fastening at the front.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1752736385632-797951369-web2_compressed.jpg",
+          "alt": "Relaxed fit Blue sour wash hoodie in 400GSM 100% cotton fleece fabric with team broken alley back screen print and a napped interior. Front embroidery design and Adjustable hood, long sleeves, faded effect and ribbed trims.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1762409887730-113683208-Artboard 1.jpg",
+          "alt": "Crafted from 100% premium cotton terry at 350 GSM, this sweatshirt delivers a perfect balance of structure, softness, and durability",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1762409984145-62271785-Artboard 9.jpg",
+          "alt": "Meticulously crafted from 400 GSM, 100% cotton fleece, this piece redefines casual luxury.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['w-48']"
+          ]
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "headings_structure": {
+        "h1": [
+          "CART IS EMPTY.."
+        ],
+        "h2": [
+          "PREVIOUS LOOKS"
+        ],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0"
+      },
+      "links_found": 15,
+      "images_found": 12,
+      "tables_found": 0,
+      "forms_found": 0,
+      "timestamp": 1764229391.273004
+    },
+    "64dec36708": {
+      "url": "https://brokenalley.in/profile/login",
+      "title": "No Title",
+      "text_content": {
+        "paragraphs": [
+          "BLACK FRIDAY SALE 50%OFF",
+          "BLACK FRIDAY SALE 50%OFF",
+          "©Broken Alley Clothing 2024. All rights reserved."
+        ],
+        "lists": [],
+        "bold_text": [],
+        "italic_text": [],
+        "code_blocks": [],
+        "quotes": [],
+        "total_word_count": 15
+      },
+      "links": [
+        {
+          "text": "HOME",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//FALL WINTER’25",
+          "url": "https://brokenalley.in/collections?category=winter",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//SPRING SUMMER’25",
+          "url": "https://brokenalley.in/collections?category=summer",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "PREVIOUS LOOK",
+          "url": "https://brokenalley.in/previous-looks",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": [
+            "['btn',",
+            "'btn-ghost']"
+          ]
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "Login",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": [
+            "['border-b',",
+            "'border-black',",
+            "'text-center',",
+            "'p-1']"
+          ]
+        },
+        {
+          "text": "Register",
+          "url": "https://brokenalley.in/profile/register",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": [
+            "['border-b',",
+            "'border-gray-300',",
+            "'text-center',",
+            "'p-1']"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['max-w-[180px]',",
+            "'sm:max-w-[240px]']"
+          ]
+        },
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['w-48']"
+          ]
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "headings_structure": {
+        "h1": [
+          "CART IS EMPTY..",
+          "Please fill in the information below"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0"
+      },
+      "links_found": 9,
+      "images_found": 4,
+      "tables_found": 0,
+      "forms_found": 0,
+      "timestamp": 1764229401.8897722
+    },
+    "e3d15ecc61": {
+      "url": "https://brokenalley.in/product/pd-6adc2ef2",
+      "title": "BA SKI CLUB TEXTURED UNISEX SWEATER -",
+      "text_content": {
+        "paragraphs": [
+          "BLACK FRIDAY SALE 50%OFF",
+          "BLACK FRIDAY SALE 50%OFF",
+          "Knitted from high-quality wool, this sweater blends athletic inspiration with refined craftsmanship. The navy and white palette evokes a timeless, collegiate spirit, while the soft, textured knit offers exceptional comfort and warmth. The front features an embroidered Broken Alley logo and Ski Club patch, paying homage to vintage sportswear through a modern, elevated lens. With its jersey-inspired silhouette and premium hand feel, this piece captures the essence of relaxed sophistication and effortless cool.",
+          "Made of high quality wool Embroidered patches in the front Embroidered Broken Alley Branding",
+          "Dry-Clean Only",
+          "Exchange: 7-day size exchange. Items must be unused, in original packaging. Get alternate item or store credit if size unavailable.Return: Raise request; we’ll pick up. Refund as store credit.Damages & Cancellations: Report within 24 hrs. No cancellations post-dispatch.",
+          "©Broken Alley Clothing 2024. All rights reserved."
+        ],
+        "lists": [
+          {
+            "type": "ul",
+            "items": [
+              "Made of high quality wool",
+              "Embroidered patches in the front",
+              "Embroidered Broken Alley Branding"
+            ]
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Dry-Clean Only"
+            ]
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Exchange: 7-day size exchange. Items must be unused, in original packaging. Get alternate item or store credit if size unavailable.",
+              "Return: Raise request; we’ll pick up. Refund as store credit.",
+              "Damages & Cancellations: Report within 24 hrs. No cancellations post-dispatch."
+            ]
+          }
+        ],
+        "bold_text": [
+          "₹6700/- - 50%  ₹3350/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6700/- - 50%  ₹3350/-",
+          "₹8000/- - 50%  ₹4000/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6700/- - 50%  ₹3350/-",
+          "₹6700/- - 50%  ₹3350/-"
+        ],
+        "italic_text": [],
+        "code_blocks": [],
+        "quotes": [],
+        "total_word_count": 142
+      },
+      "links": [
+        {
+          "text": "HOME",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//FALL WINTER’25",
+          "url": "https://brokenalley.in/collections?category=winter",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//SPRING SUMMER’25",
+          "url": "https://brokenalley.in/collections?category=summer",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "PREVIOUS LOOK",
+          "url": "https://brokenalley.in/previous-looks",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": [
+            "['btn',",
+            "'btn-ghost']"
+          ]
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SKI CLUB STRIPED UNISEX SWEATSHIRT BA SKI CLUB STRIPED UNISEX SWEATSHIRT ₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-6d5d5b23",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BLUE SOUR WASHED UNISEX HOODIE BLUE SOUR WASHED UNISEX HOODIE ₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-5699cb89",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SUEDE-LEATHER UNISEX ZIPPER JACKETBA SUEDE-LEATHER UNISEX ZIPPER JACKET₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-8b7874bc",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA KANTHA UNISEX CROPPED TRENCHCOATBA KANTHA UNISEX CROPPED TRENCHCOAT₹8000/- - 50%  ₹4000/-",
+          "url": "https://brokenalley.in/product/pd-6cf576ba",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA BORN TO SKI UNISEX HOODIEBA BORN TO SKI UNISEX HOODIE₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-6a90d1ea",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA MESH UNISEX CREW SWEATERBA MESH UNISEX CREW SWEATER₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-64451ba7",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA CROPPED UNISEX SUEDE TRENCHCOATBA CROPPED UNISEX SUEDE TRENCHCOAT₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-65a1db05",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "UNISEX SUEDE FAUX LEATHER JACKETUNISEX SUEDE FAUX LEATHER JACKET₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-35a4b9b9",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        }
+      ],
+      "images": [
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['max-w-[180px]',",
+            "'sm:max-w-[240px]']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761153057373-602366174-Artboard 5.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761158718572-95721630-Artboard 6.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761158718573-518430104-Artboard 7.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761158718575-839924728-Artboard 8.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761153057373-602366174-Artboard 5.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761158718572-95721630-Artboard 6.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761158718573-518430104-Artboard 7.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761158718575-839924728-Artboard 8.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761502717496-142254624-BA Summer SIZE WEBSITE-05.png",
+          "alt": "measurements",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761214240886-25606824-Artboard 1.jpg",
+          "alt": "Crafted from 100% premium cotton terry at 350 GSM, this sweatshirt delivers a perfect balance of structure, softness, and durability. The bold red hue with contrasting white stripe along the arms captures a sense of confident minimalism, while the embroidered logo at the chest lends a refined signature touch. The back features an exclusive Broken Alley Ski Club graphic celebrating the spirit of adventure and effortless cool that defines the brand.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761155349627-217794722-Artboard 9.jpg",
+          "alt": "Meticulously crafted from 400 GSM, 100% cotton fleece, this piece redefines casual luxury. The serene sky-blue tone is artfully disrupted by a sour-wash treatment at the elbows, creating a diffused white gradient that melts organically into the fabric. Cut in an exaggerated oversized silhouette, it drapes effortlessly on your body.\nThis garment has been specially treated to create intentional variations in color and shading, making every piece unique. Handle with care while washing or dry cleaning.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761153449570-583839682-Artboard 13.jpg",
+          "alt": "Expertly tailored from rich suede leather, this jacket embodies refined craftsmanship. The design is elevated with smooth premium leather detailing along the cuffs and front closure, adding depth and texture to its minimalist silhouette. A clean, slightly cropped fit lends a contemporary edge, while high-quality zippers and a discreet inner pocket complete the piece with functional sophistication.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154353772-17992992-Artboard 17.jpg",
+          "alt": "A contemporary reinterpretation of classic tailoring, this black cropped trench coat is crafted from lightweight fabric for an effortless drape and refined silhouette. Featuring a notched lapel collar, concealed hip pockets, and a double-breasted closure. Hand-done kantha embroidery adorns the collar, while Brokenn Alley cursive lettering at the back rendered in intricate dori embroidery. Entirely hand-finished and produced in limited numbers, each piece stands as a testament to craftsmanship and individuality.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154730267-623561809-Artboard 9.jpg",
+          "alt": "Precisely crafted from 400 GSM, 100% cotton fleece, this hoodie epitomizes relaxed luxury. The soft beige base is artfully enhanced with an acid-wash treatment, revealing subtle purple gradient patterns that emerge in patches and gradually merge into the fabric, making each piece distinctly individual. Designed with an exaggerated, baggy silhouette, it drapes effortlessly, balancing comfort with contemporary, statement-making sophistication. This garment has been specially treated to create intentional variations in color and shading, making every piece unique.Handle with care while washing or dry cleaning.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154524764-868052369-Artboard 5.jpg",
+          "alt": "Crafted from premium wool, this black mesh crew sweater combines refined texture with contemporary design. The standout feature is the custom Broken Alley cursive lettering, intricately knitted across the back, ensuring each piece exudes individuality and artisanal detail. Heavyweight yet luxuriously soft, it offers a sophisticated layering option with a modern, statement-making edge.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154851863-890088171-Artboard 1.jpg",
+          "alt": "Crafted from premium suede leather, this cropped trench coat exudes refined elegance and modern sophistication. Featuring a broad suede belt at the waist for a tailored, sculpted silhouette and a classic lapel collar, it balances structure with effortless ease. The clean lines and premium finish make it a timeless statement piece, designed to elevate any ensemble with understated luxury.\n\n\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154584541-585042511-Artboard 21.jpg",
+          "alt": "Crafted from premium faux leather and soft, suede-like velvet, this varsity jacket fuses classic athletic design with modern silhouette. Featuring ribbed trims, welt pockets, and snap-button fastening, it offers a refined yet relaxed silhouette. The front showcases a signature BA patch, while the back is elevated with contrast BA logo embroidery, creating a bold, distinctive statement.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['w-48']"
+          ]
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "headings_structure": {
+        "h1": [
+          "CART IS EMPTY..",
+          "BA SKI CLUB TEXTURED UNISEX SWEATER - S",
+          "₹6700/- - 50%  ₹3350/-",
+          "In Stock",
+          "YOU MAY ALSO LIKE"
+        ],
+        "h2": [
+          "KEY HIGHLIGHTS",
+          "PRODUCT MEASUREMENTS",
+          "WASH AND CARE",
+          "EXCHANGE AND RETURN"
+        ],
+        "h3": [
+          "BA SKI CLUB STRIPED UNISEX SWEATSHIRT",
+          "BA SKI CLUB STRIPED UNISEX SWEATSHIRT",
+          "BLUE SOUR WASHED UNISEX HOODIE",
+          "BLUE SOUR WASHED UNISEX HOODIE",
+          "BA SUEDE-LEATHER UNISEX ZIPPER JACKET",
+          "BA SUEDE-LEATHER UNISEX ZIPPER JACKET",
+          "BA KANTHA UNISEX CROPPED TRENCHCOAT",
+          "BA KANTHA UNISEX CROPPED TRENCHCOAT",
+          "BA BORN TO SKI UNISEX HOODIE",
+          "BA BORN TO SKI UNISEX HOODIE",
+          "BA MESH UNISEX CREW SWEATER",
+          "BA MESH UNISEX CREW SWEATER",
+          "BA CROPPED UNISEX SUEDE TRENCHCOAT",
+          "BA CROPPED UNISEX SUEDE TRENCHCOAT",
+          "UNISEX SUEDE FAUX LEATHER JACKET",
+          "UNISEX SUEDE FAUX LEATHER JACKET"
+        ],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "og:type": "product",
+        "twitter:card": "summary_large_image",
+        "description": "Knitted from high-quality wool, this sweater blends athletic inspiration with refined craftsmanship. The navy and white palette evokes a timeless, collegiate spirit, while the soft, textured knit offers exceptional comfort and warmth. The front features an embroidered Broken Alley logo and Ski Club patch, paying homage to vintage sportswear through a modern, elevated lens. With its jersey-inspired silhouette and premium hand feel, this piece captures the essence of relaxed sophistication and effortless cool. Key highlights include: Made of high quality wool, Embroidered patches in the front, Embroidered Broken Alley Branding.",
+        "keywords": "BA SKI CLUB TEXTURED UNISEX SWEATER, Broken Alley, brokenalley, premium, luxury, Knittwear, unisex, sweater, streetwear, premium clothing",
+        "og:title": "BA SKI CLUB TEXTURED UNISEX SWEATER - Broken Alley",
+        "og:description": "Knitted from high-quality wool, this sweater blends athletic inspiration with refined craftsmanship. The navy and white palette evokes a timeless, collegiate spirit, while the soft, textured knit offers exceptional comfort and warmth. The front features an embroidered Broken Alley logo and Ski Club patch, paying homage to vintage sportswear through a modern, elevated lens. With its jersey-inspired silhouette and premium hand feel, this piece captures the essence of relaxed sophistication and effortless cool. Key highlights include: Made of high quality wool, Embroidered patches in the front, Embroidered Broken Alley Branding.",
+        "og:image": "https://server.brokenalley.in/uploads/1761153057373-602366174-Artboard 5.jpg",
+        "og:url": "https://brokenalley.in/product/pd-6adc2ef2",
+        "twitter:title": "BA SKI CLUB TEXTURED UNISEX SWEATER - Broken Alley",
+        "twitter:description": "Knitted from high-quality wool, this sweater blends athletic inspiration with refined craftsmanship. The navy and white palette evokes a timeless, collegiate spirit, while the soft, textured knit offers exceptional comfort and warmth. The front features an embroidered Broken Alley logo and Ski Club patch, paying homage to vintage sportswear through a modern, elevated lens. With its jersey-inspired silhouette and premium hand feel, this piece captures the essence of relaxed sophistication and effortless cool. Key highlights include: Made of high quality wool, Embroidered patches in the front, Embroidered Broken Alley Branding.",
+        "twitter:image": "https://server.brokenalley.in/uploads/1761153057373-602366174-Artboard 5.jpg"
+      },
+      "links_found": 15,
+      "images_found": 21,
+      "tables_found": 0,
+      "forms_found": 0,
+      "timestamp": 1764229413.3538976
+    },
+    "0441896b44": {
+      "url": "https://brokenalley.in/product/pd-6d5d5b23",
+      "title": "BA SKI CLUB STRIPED UNISEX SWEATSHIRT  -",
+      "text_content": {
+        "paragraphs": [
+          "BLACK FRIDAY SALE 50%OFF",
+          "BLACK FRIDAY SALE 50%OFF",
+          "Crafted from 100% premium cotton terry at 350 GSM, this sweatshirt delivers a perfect balance of structure, softness, and durability. The bold red hue with contrasting white stripe along the arms captures a sense of confident minimalism, while the embroidered logo at the chest lends a refined signature touch. The back features an exclusive Broken Alley Ski Club graphic celebrating the spirit of adventure and effortless cool that defines the brand.",
+          "Relaxed Fit 350 GSM 100% Cotton Terry BA SKI club Embroidered Patch at Back Iconic BA logo Embroidery in front",
+          "Dry-Clean Only.",
+          "Exchange: 7-day size exchange. Items must be unused, in original packaging. Get alternate item or store credit if size unavailable.Return: Raise request; we’ll pick up. Refund as store credit.Damages & Cancellations: Report within 24 hrs. No cancellations post-dispatch.",
+          "©Broken Alley Clothing 2024. All rights reserved."
+        ],
+        "lists": [
+          {
+            "type": "ul",
+            "items": [
+              "Relaxed Fit",
+              "350 GSM 100% Cotton Terry",
+              "BA SKI club Embroidered Patch at Back",
+              "Iconic BA logo Embroidery in front"
+            ]
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Dry-Clean Only."
+            ]
+          },
+          {
+            "type": "ul",
+            "items": [
+              "Exchange: 7-day size exchange. Items must be unused, in original packaging. Get alternate item or store credit if size unavailable.",
+              "Return: Raise request; we’ll pick up. Refund as store credit.",
+              "Damages & Cancellations: Report within 24 hrs. No cancellations post-dispatch."
+            ]
+          }
+        ],
+        "bold_text": [
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6700/- - 50%  ₹3350/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6700/- - 50%  ₹3350/-",
+          "₹8000/- - 50%  ₹4000/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6400/- - 50%  ₹3200/-",
+          "₹6700/- - 50%  ₹3350/-",
+          "₹6700/- - 50%  ₹3350/-"
+        ],
+        "italic_text": [],
+        "code_blocks": [],
+        "quotes": [],
+        "total_word_count": 146
+      },
+      "links": [
+        {
+          "text": "HOME",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//FALL WINTER’25",
+          "url": "https://brokenalley.in/collections?category=winter",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "//SPRING SUMMER’25",
+          "url": "https://brokenalley.in/collections?category=summer",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "PREVIOUS LOOK",
+          "url": "https://brokenalley.in/previous-looks",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": [
+            "['btn',",
+            "'btn-ghost']"
+          ]
+        },
+        {
+          "text": "",
+          "url": "https://brokenalley.in/profile/login",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SKI CLUB TEXTURED UNISEX SWEATERBA SKI CLUB TEXTURED UNISEX SWEATER₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-6adc2ef2",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BLUE SOUR WASHED UNISEX HOODIE BLUE SOUR WASHED UNISEX HOODIE ₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-5699cb89",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA SUEDE-LEATHER UNISEX ZIPPER JACKETBA SUEDE-LEATHER UNISEX ZIPPER JACKET₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-8b7874bc",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA KANTHA UNISEX CROPPED TRENCHCOATBA KANTHA UNISEX CROPPED TRENCHCOAT₹8000/- - 50%  ₹4000/-",
+          "url": "https://brokenalley.in/product/pd-6cf576ba",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA BORN TO SKI UNISEX HOODIEBA BORN TO SKI UNISEX HOODIE₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-6a90d1ea",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA MESH UNISEX CREW SWEATERBA MESH UNISEX CREW SWEATER₹6400/- - 50%  ₹3200/-",
+          "url": "https://brokenalley.in/product/pd-64451ba7",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "BA CROPPED UNISEX SUEDE TRENCHCOATBA CROPPED UNISEX SUEDE TRENCHCOAT₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-65a1db05",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        },
+        {
+          "text": "UNISEX SUEDE FAUX LEATHER JACKETUNISEX SUEDE FAUX LEATHER JACKET₹6700/- - 50%  ₹3350/-",
+          "url": "https://brokenalley.in/product/pd-35a4b9b9",
+          "title": "",
+          "is_external": false,
+          "element_id": "",
+          "css_class": []
+        }
+      ],
+      "images": [
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['max-w-[180px]',",
+            "'sm:max-w-[240px]']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761214240886-25606824-Artboard 1.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761157076393-315002354-Artboard 2.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761157076393-971712148-Artboard 3.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761157076394-964620992-Artboard 4.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761214240886-25606824-Artboard 1.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761157076393-315002354-Artboard 2.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761157076393-971712148-Artboard 3.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761157076394-964620992-Artboard 4.jpg",
+          "alt": "No alt text",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761502736449-990719131-BA Summer SIZE WEBSITE-01.png",
+          "alt": "measurements",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761153057373-602366174-Artboard 5.jpg",
+          "alt": "Knitted from high-quality wool, this sweater blends athletic inspiration with refined craftsmanship. The navy and white palette evokes a timeless, collegiate spirit, while the soft, textured knit offers exceptional comfort and warmth. The front features an embroidered Broken Alley logo and Ski Club patch, paying homage to vintage sportswear through a modern, elevated lens. With its jersey-inspired silhouette and premium hand feel, this piece captures the essence of relaxed sophistication and effortless cool.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761155349627-217794722-Artboard 9.jpg",
+          "alt": "Meticulously crafted from 400 GSM, 100% cotton fleece, this piece redefines casual luxury. The serene sky-blue tone is artfully disrupted by a sour-wash treatment at the elbows, creating a diffused white gradient that melts organically into the fabric. Cut in an exaggerated oversized silhouette, it drapes effortlessly on your body.\nThis garment has been specially treated to create intentional variations in color and shading, making every piece unique. Handle with care while washing or dry cleaning.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761153449570-583839682-Artboard 13.jpg",
+          "alt": "Expertly tailored from rich suede leather, this jacket embodies refined craftsmanship. The design is elevated with smooth premium leather detailing along the cuffs and front closure, adding depth and texture to its minimalist silhouette. A clean, slightly cropped fit lends a contemporary edge, while high-quality zippers and a discreet inner pocket complete the piece with functional sophistication.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154353772-17992992-Artboard 17.jpg",
+          "alt": "A contemporary reinterpretation of classic tailoring, this black cropped trench coat is crafted from lightweight fabric for an effortless drape and refined silhouette. Featuring a notched lapel collar, concealed hip pockets, and a double-breasted closure. Hand-done kantha embroidery adorns the collar, while Brokenn Alley cursive lettering at the back rendered in intricate dori embroidery. Entirely hand-finished and produced in limited numbers, each piece stands as a testament to craftsmanship and individuality.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154730267-623561809-Artboard 9.jpg",
+          "alt": "Precisely crafted from 400 GSM, 100% cotton fleece, this hoodie epitomizes relaxed luxury. The soft beige base is artfully enhanced with an acid-wash treatment, revealing subtle purple gradient patterns that emerge in patches and gradually merge into the fabric, making each piece distinctly individual. Designed with an exaggerated, baggy silhouette, it drapes effortlessly, balancing comfort with contemporary, statement-making sophistication. This garment has been specially treated to create intentional variations in color and shading, making every piece unique.Handle with care while washing or dry cleaning.\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154524764-868052369-Artboard 5.jpg",
+          "alt": "Crafted from premium wool, this black mesh crew sweater combines refined texture with contemporary design. The standout feature is the custom Broken Alley cursive lettering, intricately knitted across the back, ensuring each piece exudes individuality and artisanal detail. Heavyweight yet luxuriously soft, it offers a sophisticated layering option with a modern, statement-making edge.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154851863-890088171-Artboard 1.jpg",
+          "alt": "Crafted from premium suede leather, this cropped trench coat exudes refined elegance and modern sophistication. Featuring a broad suede belt at the waist for a tailored, sculpted silhouette and a classic lapel collar, it balances structure with effortless ease. The clean lines and premium finish make it a timeless statement piece, designed to elevate any ensemble with understated luxury.\n\n\n",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://server.brokenalley.in/uploads/1761154584541-585042511-Artboard 21.jpg",
+          "alt": "Crafted from premium faux leather and soft, suede-like velvet, this varsity jacket fuses classic athletic design with modern silhouette. Featuring ribbed trims, welt pockets, and snap-button fastening, it offers a refined yet relaxed silhouette. The front showcases a signature BA patch, while the back is elevated with contrast BA logo embroidery, creating a bold, distinctive statement.",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['inset-0',",
+            "'h-full',",
+            "'w-full',",
+            "'object-cover',",
+            "'opacity-100',",
+            "'group-hover:opacity-0']"
+          ]
+        },
+        {
+          "src": "https://brokenalley.in/assets/whiteBAText-MoD5-lsJ.png",
+          "alt": "Broken Alley Logo",
+          "title": "",
+          "width": "",
+          "height": "",
+          "loading": "",
+          "css_class": [
+            "['w-48']"
+          ]
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        },
+        {
+          "src": "https://www.facebook.com/tr?id=576637891838061&ev=PageView&noscript=1",
+          "alt": "No alt text",
+          "title": "",
+          "width": "1",
+          "height": "1",
+          "loading": "",
+          "css_class": []
+        }
+      ],
+      "tables": [],
+      "forms": [],
+      "headings_structure": {
+        "h1": [
+          "CART IS EMPTY..",
+          "BA SKI CLUB STRIPED UNISEX SWEATSHIRT  - S",
+          "₹6400/- - 50%  ₹3200/-",
+          "In Stock",
+          "YOU MAY ALSO LIKE"
+        ],
+        "h2": [
+          "KEY HIGHLIGHTS",
+          "PRODUCT MEASUREMENTS",
+          "WASH AND CARE",
+          "EXCHANGE AND RETURN"
+        ],
+        "h3": [
+          "BA SKI CLUB TEXTURED UNISEX SWEATER",
+          "BA SKI CLUB TEXTURED UNISEX SWEATER",
+          "BLUE SOUR WASHED UNISEX HOODIE",
+          "BLUE SOUR WASHED UNISEX HOODIE",
+          "BA SUEDE-LEATHER UNISEX ZIPPER JACKET",
+          "BA SUEDE-LEATHER UNISEX ZIPPER JACKET",
+          "BA KANTHA UNISEX CROPPED TRENCHCOAT",
+          "BA KANTHA UNISEX CROPPED TRENCHCOAT",
+          "BA BORN TO SKI UNISEX HOODIE",
+          "BA BORN TO SKI UNISEX HOODIE",
+          "BA MESH UNISEX CREW SWEATER",
+          "BA MESH UNISEX CREW SWEATER",
+          "BA CROPPED UNISEX SUEDE TRENCHCOAT",
+          "BA CROPPED UNISEX SUEDE TRENCHCOAT",
+          "UNISEX SUEDE FAUX LEATHER JACKET",
+          "UNISEX SUEDE FAUX LEATHER JACKET"
+        ],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "metadata": {
+        "viewport": "width=device-width, initial-scale=1.0",
+        "og:type": "product",
+        "twitter:card": "summary_large_image",
+        "description": "Crafted from 100% premium cotton terry at 350 GSM, this sweatshirt delivers a perfect balance of structure, softness, and durability. The bold red hue with contrasting white stripe along the arms captures a sense of confident minimalism, while the embroidered logo at the chest lends a refined signature touch. The back features an exclusive Broken Alley Ski Club graphic celebrating the spirit of adventure and effortless cool that defines the brand. Key highlights include: Relaxed Fit, 350 GSM 100% Cotton Terry, BA SKI club Embroidered Patch at Back, Iconic BA logo Embroidery in front.",
+        "keywords": "BA SKI CLUB STRIPED UNISEX SWEATSHIRT , Broken Alley, brokenalley, , streetwear, premium clothing",
+        "og:title": "BA SKI CLUB STRIPED UNISEX SWEATSHIRT  - Broken Alley",
+        "og:description": "Crafted from 100% premium cotton terry at 350 GSM, this sweatshirt delivers a perfect balance of structure, softness, and durability. The bold red hue with contrasting white stripe along the arms captures a sense of confident minimalism, while the embroidered logo at the chest lends a refined signature touch. The back features an exclusive Broken Alley Ski Club graphic celebrating the spirit of adventure and effortless cool that defines the brand. Key highlights include: Relaxed Fit, 350 GSM 100% Cotton Terry, BA SKI club Embroidered Patch at Back, Iconic BA logo Embroidery in front.",
+        "og:image": "https://server.brokenalley.in/uploads/1761214240886-25606824-Artboard 1.jpg",
+        "og:url": "https://brokenalley.in/product/pd-6d5d5b23",
+        "twitter:title": "BA SKI CLUB STRIPED UNISEX SWEATSHIRT  - Broken Alley",
+        "twitter:description": "Crafted from 100% premium cotton terry at 350 GSM, this sweatshirt delivers a perfect balance of structure, softness, and durability. The bold red hue with contrasting white stripe along the arms captures a sense of confident minimalism, while the embroidered logo at the chest lends a refined signature touch. The back features an exclusive Broken Alley Ski Club graphic celebrating the spirit of adventure and effortless cool that defines the brand. Key highlights include: Relaxed Fit, 350 GSM 100% Cotton Terry, BA SKI club Embroidered Patch at Back, Iconic BA logo Embroidery in front.",
+        "twitter:image": "https://server.brokenalley.in/uploads/1761214240886-25606824-Artboard 1.jpg"
+      },
+      "links_found": 15,
+      "images_found": 21,
+      "tables_found": 0,
+      "forms_found": 0,
+      "timestamp": 1764229424.8563156
+    }
+  }
+}

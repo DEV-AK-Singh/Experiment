@@ -1,0 +1,102 @@
+{
+  "crawl_summary": {
+    "start_url": "https://www.meesho.com/forego-vivo-y29-5g-back-cover-inside-tpu-with-card-pocket-wallet-stand-and-shock-proof-complete-protection-flip-case-blue/p/872zug",
+    "base_domain": "www.meesho.com",
+    "total_pages_crawled": 1,
+    "max_depth_reached": 3,
+    "crawl_duration_seconds": 10.3,
+    "total_links_found": 0,
+    "total_images_found": 0,
+    "total_tables_found": 0,
+    "total_words_extracted": 3,
+    "crawl_start_time": 1764229928.0651598,
+    "crawl_end_time": 1764229938.364545
+  },
+  "pages_by_depth": [
+    "dd79c0400a"
+  ],
+  "site_structure": {
+    "most_linked_pages": [],
+    "page_titles": [
+      "Access Denied"
+    ],
+    "unique_domains_linked": []
+  },
+  "content_analysis": {
+    "total_content_volume": {
+      "words": 3,
+      "paragraphs": 2,
+      "images": 0,
+      "tables": 0
+    },
+    "content_types_present": [],
+    "common_keywords": [
+      [
+        "d4efc817",
+        2
+      ],
+      [
+        "1764229927",
+        2
+      ],
+      [
+        "cacf71d",
+        2
+      ],
+      [
+        "reference",
+        1
+      ],
+      [
+        "https",
+        1
+      ],
+      [
+        "errors",
+        1
+      ],
+      [
+        "edgesuite",
+        1
+      ]
+    ]
+  },
+  "detailed_pages": {
+    "dd79c0400a": {
+      "url": "https://www.meesho.com/forego-vivo-y29-5g-back-cover-inside-tpu-with-card-pocket-wallet-stand-and-shock-proof-complete-protection-flip-case-blue/p/872zug",
+      "title": "Access Denied",
+      "text_content": {
+        "paragraphs": [
+          "Reference #18.d4efc817.1764229927.cacf71d",
+          "https://errors.edgesuite.net/18.d4efc817.1764229927.cacf71d"
+        ],
+        "lists": [],
+        "bold_text": [],
+        "italic_text": [],
+        "code_blocks": [],
+        "quotes": [],
+        "total_word_count": 3
+      },
+      "links": [],
+      "images": [],
+      "tables": [],
+      "forms": [],
+      "headings_structure": {
+        "h1": [
+          "Access Denied"
+        ],
+        "h2": [],
+        "h3": [],
+        "h4": [],
+        "h5": [],
+        "h6": []
+      },
+      "metadata": {},
+      "links_found": 0,
+      "images_found": 0,
+      "tables_found": 0,
+      "forms_found": 0,
+      "timestamp": 1764229938.364545
+    }
+  }
+}

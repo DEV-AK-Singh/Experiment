@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Web Crawler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌐 Deep Web Crawler</h1>
+            <p class="subtitle">Comprehensive 3-Level Website Analysis</p>
+        </header>
+
+        <main>
+            <section class="input-section">
+                <form id="crawlForm">
+                    <div class="form-group">
+                        <label for="urlInput">Website URL:</label>
+                        <input type="text" id="urlInput" placeholder="https://example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="depthSelect">Crawl Depth:</label>
+                        <select id="depthSelect">
+                            <option value="1">Level 1 (Main page only)</option>
+                            <option value="2" selected>Level 2 (Main page + 1 level deep)</option>
+                            <option value="3">Level 3 (Main page + 2 levels deep)</option>
+                        </select>
+                    </div>
+                    <button type="submit" id="crawlBtn">Start Deep Crawl</button>
+                </form>
+            </section>
+
+            <section id="loadingSection" class="loading-section hidden">
+                <div class="loading-content">
+                    <div class="spinner"></div>
+                    <h3>🔄 Crawling Website...</h3>
+                    <p>This may take 2-5 minutes as we're crawling multiple levels deep.</p>
+                    <div class="progress-info">
+                        <p>Status: <span id="statusText">Initializing...</span></p>
+                        <p>Pages crawled: <span id="pagesCount">0</span></p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="resultSection" class="result-section hidden">
+                <!-- Results will be populated here -->
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Deep Web Crawler | Systematic Folder Structure</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
