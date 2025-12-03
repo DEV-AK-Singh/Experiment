@@ -1,0 +1,54 @@
+# infra/docker-compose.yml
+version: "3.8"
+
+services:
+  mongo:
+    image: mongo:6.0
+    container_name: mytodos_mongo
+    restart: unless-stopped
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - mytodos_net
+
+  backend:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile.backend
+    image: mytodos_backend:latest
+    container_name: mytodos_backend
+    env_file:
+      - ../.env
+    environment:
+      - MONGO_URI=mongodb://mongo/todos
+      - PORT=5000
+    depends_on:
+      - mongo
+    networks:
+      - mytodos_net
+    ports:
+      - "5000:5000"
+
+  frontend:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile.frontend
+    image: mytodos_frontend:latest
+    container_name: mytodos_frontend
+    env_file:
+      - ../.env
+    environment:
+      - BACKEND_PORT=5000
+    depends_on:
+      - backend
+    networks:
+      - mytodos_net
+    ports:
+      - "80:80"
+
+volumes:
+  mongo_data:
+
+networks:
+  mytodos_net:
+    driver: bridge
